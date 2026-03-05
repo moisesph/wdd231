@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Moises Pleytez | WDD231</title>
+    <meta name="description"
+        content="This is a website like a homework about me, to gain the points and improve the skills of the course">
+    <meta name="author" content="Moises Pleytez">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/home-large.css">
 
-    <script src="script/home.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +22,28 @@
         <img src="images/house.svg" alt="Site Logo" width="512" height="512">
         <span>Moises's Site Title</span>
         <button id="ham-btn" class="hamburger"></button>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="current"><a href="#">Chamber</a></li>
+                <li><a href="#">Final</a></li>
+            </ul>
+        </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <h1>Home</h1>
+    </main>
+    <footer>
+        <div class="`">
+            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/moisespleytez/?locale=es_ES" target="_blank"><img
+                    src="images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.youtube.com/@Perro-G1" target="_blank"><img src="images/youtube.svg" alt="Youtube"></a>
+        </div>
+        <p>©</p>
+        <p>Last Modified:</p>
+    </footer>
 </body>
 
 </html>
