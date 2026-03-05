@@ -1,3 +1,12 @@
+:root {
+
+    --primary: #FFCC00;
+    --pop-color: #009B4D;
+    --background: hsl(0, 0%, 0%);
+    --background-body: #ccc;
+    --typeface: #FAF5E9;
+}
+
 @media only screen and (min-width: 38rem) {
 
     header,
@@ -12,12 +21,30 @@
 
     header {
         grid-template-columns: 24px auto;
-        padding: 5px 0 5px 10px;
+        padding: 10px 0 5px 10px;
+        border-bottom: none;
+        padding-top: 0;
     }
+
+    header span,
+    header img {
+        margin: .6rem 0 .5rem 0;
+        font-size: 1.3rem;
+    }
+
+    header img {
+        width: 3rem;
+        margin-top: .2rem;
+    }
+
 
     header img,
     header span {
         padding: 0;
+    }
+
+    #nav-bar {
+        background-color: var(--background-body);
     }
 
     /******************* Navigation **************************/
@@ -38,5 +65,35 @@
 
     .hamburger {
         display: none;
+    }
+
+    /******************* SITE WIDE **************************/
+    #personal,
+    #showCourses {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    /******************* SECTIONS **************************/
+
+
+
+    #sectionCoursesOptions button {
+        flex-grow: 1;
+    }
+
+    #showCourses {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: .8rem;
+        grid-row-gap: .7rem;
+
+        margin-top: .5rem;
+    }
+
+    #sectionCoursesOptions button,
+    #showCourses .highlight,
+    #showCourses .noHighlight {
+        border-radius: .4rem;
     }
 }
