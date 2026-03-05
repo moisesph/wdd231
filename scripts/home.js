@@ -150,6 +150,7 @@ function sumAllCredits(courses) {
     })
 }
 
+
 function sumCredits(courses, nCourse) {
     const totalCredits = document.querySelector('#creditsCount');
     credits = 0;
@@ -163,6 +164,24 @@ function sumCredits(courses, nCourse) {
 
     })
 }
+
+
+`
+function sumCreditsWithReduce(courses, nCourse) {
+    const totalCredits = document.querySelector('#creditsCount');
+    const initialValue = 0;
+
+    courses.forEach(course => {
+        if (course.completed && nCourse == course.subject) {
+            credits = course.reduce((credits, initialValue)=>{
+
+            }, return )
+            totalCredits.innerHTML = sCredits;
+        }
+
+    })
+}
+`
 
 
 const cseName = "CSE";
