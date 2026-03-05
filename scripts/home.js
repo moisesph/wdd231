@@ -86,6 +86,7 @@ const courses = [
 
 
 function showAllCourses(courses) {
+    // Shows the courses all the courses and highlights which has been passed
     const div = document.querySelector('#showCourses');
 
     if (!div) return;
@@ -96,7 +97,7 @@ function showAllCourses(courses) {
         if (course.completed) {
             rows += `
         <div class="highlight"> 
-        <p>${course.subject} ${course.number}</p>
+        <p>✔${course.subject} ${course.number}</p>
         </div>
 `}
         else {
@@ -110,7 +111,7 @@ function showAllCourses(courses) {
 
 
 function filterCourses(courses, name) {
-    // Shows the courses and highlights which has been passed
+    // Shows the courses depending the subject and highlights which has been passed
     const div = document.querySelector('#showCourses');
     let rows = "";
     courses.forEach(course => {
@@ -120,7 +121,7 @@ function filterCourses(courses, name) {
         if (name == filteredName && courseCompleted) {
             rows += `
             <div class="highlight"> 
-            <p>${course.subject} ${course.number}</p> 
+            <p>✔${course.subject} ${course.number}</p> 
             </div>`
 
         }
@@ -135,23 +136,61 @@ function filterCourses(courses, name) {
     });
 }
 
+function sumAllCredits(courses) {
+    const totalCredits = document.querySelector('#creditsCount');
+    credits = 0;
+
+    courses.forEach(course => {
+        if (course.completed) {
+            credits += course.credits;
+            sCredits = credits.toString();
+            totalCredits.innerHTML = sCredits;
+        }
+
+    })
+}
+
+function sumCredits(courses, nCourse) {
+    const totalCredits = document.querySelector('#creditsCount');
+    credits = 0;
+
+    courses.forEach(course => {
+        if (course.completed && nCourse == course.subject) {
+            credits += course.credits;
+            sCredits = credits.toString();
+            totalCredits.innerHTML = sCredits;
+        }
+
+    })
+}
+
+
+const cseName = "CSE";
+const wddName = "WDD";
 
 
 const all = document.querySelector('#all');
 const cse = document.querySelector('#cse');
 const wdd = document.querySelector('#wdd');
 
-const cseName = "CSE";
-const wddName = "WDD";
+
+document.addEventListener('DOMContentLoaded', () => {
+    showAllCourses(courses)
+    sumAllCredits(courses);
+})
 
 all.addEventListener('click', () => {
     showAllCourses(courses)
+    sumAllCredits(courses);
 })
 
 cse.addEventListener('click', () => {
     filterCourses(courses, cseName)
+    sumCredits(courses, cseName);
 })
 
 wdd.addEventListener('click', () => {
     filterCourses(courses, wddName)
+    sumCredits(courses, wddName);
 })
+
