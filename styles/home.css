@@ -108,6 +108,11 @@ ul {
 
 /******************* SITE WIDE **************************/
 
+body {
+    font-family: "Comic Relief", cursive;
+}
+
+
 h1 {
     padding-left: 10px;
     color: var(--primary);
