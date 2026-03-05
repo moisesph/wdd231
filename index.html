@@ -15,34 +15,64 @@
 
     <script src="scripts/home.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
-        <img src="images/house.svg" alt="Site Logo" width="512" height="512">
-        <span>Moises's Site Title</span>
+        <img src="images/dragon.svg" alt="Site Logo" width="512" height="512">
+        <span>Moises's Site</span>
         <button id="ham-btn" class="hamburger"></button>
 
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li class="current"><a href="#">Chamber</a></li>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
                 <li><a href="#">Final</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Home</h1>
-    </main>
-    <footer>
-        <div class="`">
+
+        <section id="me">
+            <h2>About Me</h2>
+            <p>I am 23 years old, I live in Honduras, I am studying with BYU Idaho programs, I know about HTML, CSS, JS,
+                Phyton and C#, I like motorcycles and reading and playing RPG games</p>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/myself.webp" alt="Picture of Student">
+        </section>
+        <section id="sectionCoursesOptions">
+            <h2>Web Certificate Courses</h2>
+            <div id="coursesOptions">
+                <button type="button" id="all">ALL</button>
+                <button type="button" id="cse">CSE</button>
+                <button type="button" id="wdd">WDD</button>
+            </div>
+
+            <div id="showCourses">
+            </div>
+            <p class="centered">The total credits for course listed above is <span id="points"></span></p>
+        </section>
+
+
+        <div class="shareLinks">
             <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="github"></a>
             <a href="https://www.linkedin.com/in/moisespleytez/?locale=es_ES" target="_blank"><img
                     src="images/linkedin.svg" alt="linkedin"></a>
             <a href="https://www.youtube.com/@Perro-G1" target="_blank"><img src="images/youtube.svg" alt="Youtube"></a>
         </div>
-        <p>©</p>
-        <p>Last Modified:</p>
+    </main>
+    <footer>
+
+
+
+        <p>©<span id="currentyear"></span> 🏆 Moises Pleytez 🏆 Honduras</p>
+        <p id="low-case">Last Modified: <span id="lastModified"></span></p>
+        </p>
+
     </footer>
 </body>
 
