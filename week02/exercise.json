@@ -1,0 +1,20 @@
+{
+    "family": {
+        "name": "Flores",
+        "moved": "October 13 2002",
+        "members": 2,
+        "visited": true,
+        "people": [
+            {
+                "name": "Maria",
+                "gender": "Female",
+                "birthdate": "March 13"
+            },
+            {
+                "name": "Jose",
+                "gender": "Male",
+                "birthdate": "April 23"
+            }
+        ]
+    }
+}
