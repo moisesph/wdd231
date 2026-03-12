@@ -19,7 +19,7 @@ const displayCompanies = (companies) => {
         let address = document.createElement('p');
 
         name.textContent = `${company.name}`;
-        email.textContent = `place of Birth: ${companies.email}`
+        email.textContent = `EMAIL: ${companies.email}`
         locationImage.setAttribute('src', company.image);
         locationImage.setAttribute('alt', `Building of the company ${company.name}`)
         locationImage.setAttribute('loading', 'lazy');
