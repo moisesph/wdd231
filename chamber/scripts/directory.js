@@ -14,10 +14,12 @@ const displayCompanies = (companies) => {
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let locationImage = document.createElement('img');
-        let address = document.createElement('p');
+        let email = document.createElement('p');
         let phone = document.createElement('p');
+        let address = document.createElement('p');
 
         name.textContent = `${company.name}`;
+        email.textContent = `place of Birth: ${companies.email}`
         locationImage.setAttribute('src', company.image);
         locationImage.setAttribute('alt', `Building of the company ${company.name}`)
         locationImage.setAttribute('loading', 'lazy');
@@ -26,6 +28,7 @@ const displayCompanies = (companies) => {
 
         card.appendChild(name);
         card.appendChild(locationImage);
+        card.appendChild(email);
         card.appendChild(address);
         card.appendChild(phone);
         cards.appendChild(card);
