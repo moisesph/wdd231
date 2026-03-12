@@ -17,9 +17,15 @@ const displayCompanies = (companies) => {
         let email = document.createElement('p');
         let phone = document.createElement('p');
         let address = document.createElement('p');
+        let website = document.createElement('p');
 
         name.textContent = `${company.name}`;
-        email.textContent = `EMAIL: ${companies.email}`
+        email.textContent = `EMAIL: ${company.email}`;
+        phone.textContent = `PHONE: ${company.phone}`;
+        address.textContent = `ADDRESS: ${company.addresses}`;
+        website.textContent = `Website: ${company.website}`;
+
+
         locationImage.setAttribute('src', company.image);
         locationImage.setAttribute('alt', `Building of the company ${company.name}`)
         locationImage.setAttribute('loading', 'lazy');
@@ -31,6 +37,7 @@ const displayCompanies = (companies) => {
         card.appendChild(email);
         card.appendChild(address);
         card.appendChild(phone);
+        card.appendChild(website);
         cards.appendChild(card);
     });
 
