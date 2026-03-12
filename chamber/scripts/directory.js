@@ -1,9 +1,10 @@
-const companies = require('../data/members.json');
+const companies = 'https://raw.githubusercontent.com/moisesph/wdd231/refs/heads/main/chamber/data/members.json';
 const cards = document.querySelector('#cards')
 
 async function getCompanyInformation() {
     const response = await fetch(companies);
     const data = await response.json(cards);
+    console.table(data.prophets);
     displayCompanies(data.companies);
 
 }
