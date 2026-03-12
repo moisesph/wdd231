@@ -18,17 +18,17 @@ const displayCompanies = (companies) => {
         let phone = document.createElement('p');
 
         name.textContent = `${company.name}`;
-        locationImage.setAttribute('src', company.address);
-        locationImage.setAttribute('alt' `Building of the company ${company.name}`)
+        locationImage.setAttribute('src', company.image);
+        locationImage.setAttribute('alt', `Building of the company ${company.name}`)
         locationImage.setAttribute('loading', 'lazy');
-        locationImage.setAttribute('width', '340');
-        locationImage.setAttribute('height', '440');
+        locationImage.setAttribute('width', '140');
+        locationImage.setAttribute('height', '140');
 
         card.appendChild(name);
         card.appendChild(locationImage);
         card.appendChild(address);
         card.appendChild(phone);
-
+        cards.appendChild(card);
     });
 
 }

@@ -1,0 +1,45 @@
+main {
+    background-color: hsl(0, 0%, 87%);
+    width: 50%;
+}
+
+
+
+
+
+
+#cards,
+#cards section,
+header {
+    place-items: center;
+
+}
+
+h1,
+h2 {
+    color: hsl(240, 32%, 45%);
+}
+
+#cards section {
+    background-color: hsl(240, 16%, 76%);
+    margin: .3rem;
+    padding: 1rem;
+    min-height: 400px;
+    place-items: center;
+}
+
+#cards section h2 {
+    font-size: 2rem;
+}
+
+#cards section p {
+    font-size: 1rem;
+}
+
+#cards section img {
+    background-size: cover;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+    box-shadow: 5px 5px 10px #888;
+    width: 20rem;
+    height: auto;
+}
