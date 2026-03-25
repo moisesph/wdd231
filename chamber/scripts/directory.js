@@ -12,7 +12,7 @@ async function getCompanyInformation() {
 const displayCompanies = (companies) => {
     companies.forEach(company => {
         let card = document.createElement('section');
-        let name = document.createElement('h2');
+        let name = document.createElement('h3');
         let locationImage = document.createElement('img');
         let email = document.createElement('p');
         let phone = document.createElement('p');
@@ -29,8 +29,8 @@ const displayCompanies = (companies) => {
         locationImage.setAttribute('src', company.image);
         locationImage.setAttribute('alt', `Building of the company ${company.name}`)
         locationImage.setAttribute('loading', 'lazy');
-        locationImage.setAttribute('width', '140');
-        locationImage.setAttribute('height', '140');
+        locationImage.setAttribute('width', '10');
+        locationImage.setAttribute('height', '10');
 
         card.appendChild(name);
         card.appendChild(locationImage);

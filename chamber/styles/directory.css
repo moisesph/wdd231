@@ -1,34 +1,41 @@
-main {
-    background-color: hsl(0, 0%, 87%);
-    width: 50%;
+/******************************************* MAP ********************************************/
+
+
+.embed-map-frame {
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+
 }
 
+/*********I used this website for the map: https://www.mapembed.org/?gad_source=1&gad_campaignid=22280139497&gbraid=0AAAAA98a5IPNHZXgc5oEQjdLPlDIlDgSq&gclid=CjwKCAjwyMnNBhBNEiwA-Kcguy0hMFZsU7CNPTVfPnhFKmNb0_TSTvtQ80e1pNmRmZwyZJdBmv-a8RoCFDIQAvD_BwE************/
 
 
-
-
-
+/******************************************* CARDS ********************************************/
 #cards,
-#cards section,
-header {
-    place-items: center;
 
+header,
+h1 {
+    place-items: center;
 }
 
 h1,
-h2 {
+h3 {
     color: hsl(240, 32%, 45%);
+}
+
+h3 {
+    border-bottom: 1px solid black;
 }
 
 #cards section {
     background-color: hsl(240, 16%, 76%);
-    margin: .3rem;
-    padding: 1rem;
-    min-height: 400px;
     place-items: center;
+    max-width: 30rem;
 }
 
-#cards section h2 {
+#cards section h3 {
     font-size: 2rem;
 }
 
