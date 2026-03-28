@@ -65,7 +65,7 @@
     }
 
     #cards section {
-        min-height: 40.5rem;
+        min-height: 45.5rem;
         display: grid;
         place-items: center;
     }
