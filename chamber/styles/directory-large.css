@@ -57,3 +57,34 @@
     .hamburger {
         display: none;
     }
+
+    /******************* SITE WIDE **************************/
+    #personal,
+    #showCourses {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    /******************* SECTIONS **************************/
+
+
+
+    #sectionCoursesOptions button {
+        flex-grow: 1;
+    }
+
+    #showCourses {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: .8rem;
+        grid-row-gap: .7rem;
+
+        margin-top: .5rem;
+    }
+
+    #sectionCoursesOptions button,
+    #showCourses .highlight,
+    #showCourses .noHighlight {
+        border-radius: .4rem;
+    }
+}
