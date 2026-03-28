@@ -3,11 +3,15 @@
 :root {
 
     --primary: #0D9488;
-    --secondary: #38BDF8;
+    --secondary: #1f7396;
     --background: #cfd5db;
     --text: #1E293B;
 
 
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
 }
 
 
