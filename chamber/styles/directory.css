@@ -149,6 +149,7 @@ h2 {
 #cards section p {
     font-size: 1rem;
     padding: 0 1rem;
+    text-align: center;
 }
 
 #cards section img {
@@ -158,6 +159,7 @@ h2 {
     width: 20rem;
     height: auto;
     border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
 }
 
 

@@ -59,32 +59,19 @@
     }
 
     /******************* SITE WIDE **************************/
-    #personal,
-    #showCourses {
+    #cards {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 1fr 1fr;
     }
 
-    /******************* SECTIONS **************************/
-
-
-
-    #sectionCoursesOptions button {
-        flex-grow: 1;
+    #cards section {
+        min-height: 40.5rem;
     }
 
-    #showCourses {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: .8rem;
-        grid-row-gap: .7rem;
+    #cards img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
 
-        margin-top: .5rem;
-    }
-
-    #sectionCoursesOptions button,
-    #showCourses .highlight,
-    #showCourses .noHighlight {
-        border-radius: .4rem;
     }
 }
