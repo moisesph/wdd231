@@ -12,7 +12,7 @@ async function getCompanyInformation() {
 const displayCompanies = (companies) => {
     companies.forEach(company => {
         let card = document.createElement('section');
-        let name = document.createElement('h3');
+        let name = document.createElement('h2');
         let locationImage = document.createElement('img');
         let email = document.createElement('p');
         let phone = document.createElement('p');
@@ -20,7 +20,7 @@ const displayCompanies = (companies) => {
         let website = document.createElement('p');
 
         name.textContent = `${company.name}`;
-        email.textContent = `EMAIL: ${company.email}`;
+        email.textContent = `EMAIL:${company.email}`;
         phone.textContent = `PHONE: ${company.phone}`;
         address.textContent = `ADDRESS: ${company.addresses}`;
         website.textContent = `Website: ${company.website}`;
@@ -44,4 +44,3 @@ const displayCompanies = (companies) => {
 }
 
 getCompanyInformation();
-displayCompanies(data);

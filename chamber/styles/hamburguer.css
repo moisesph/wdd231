@@ -1,42 +1,68 @@
-#menu {
-    font-size: 1.5rem;
-    border: 0;
-    background: none;
-    color: #000;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-#menu::before {
-    content: "☰";
-}
-
-#menu.open::before {
-    content: "❌";
-}
-
+/******************* Navigation **************************/
 
 .navigation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
+    display: none;
+
+}
+
+.navigation.show {
+    display: block;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
 }
 
 .navigation a {
-    display: none;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    flex: 1 1 100%;
-
-}
-
-.open a {
     display: block;
+    padding: .8rem 10px;
+    color: #3D405B;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+
 }
+
+ul {
+    width: 100vw;
+}
+
+
+
+.navigation li.current {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: var(--pop-color);
+}
+
+/******************* HAMBURGER NAV **************************/
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #3D405B;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+
+
+/******************* SITE WIDE **************************/
 
 @media (min-width: 37.5em) {
 

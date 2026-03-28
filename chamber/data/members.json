@@ -1,4 +1,4 @@
-{ 
+{
   "companies": [
     {
       "name": "Oncologist",
@@ -32,7 +32,7 @@
       "email": "support@ortho-recovery-specialists.org",
       "phone": 6025550333,
       "website": "ortho-recovery-specialists.org",
-      "image": "https://www.nationwidechildrens.org/locations/urgent-care-locations/downtown",
+      "image": "https://www.nationwidechildrens.org/-/media/nch/locations/images/downtown_urgent_care.jpg?w=434&h=290&as=1&bc=FFFFFF&hash=AF83C46016862CB6BCF8881E0E69C0B4",
       "membership": {
         "member": 1,
         "silver": 2,
@@ -84,7 +84,7 @@
       "email": "portal@urology-care-experts.com",
       "phone": 2145550777,
       "website": "urology-care-experts.com",
-      "image": "",
+      "image": "https://www.holstonmedicalgroup.com/assets/img/locations/the-urology-clinic-bristol.jpg",
       "membership": {
         "member": 1,
         "silver": 2,

@@ -9,17 +9,17 @@
     <meta name="author" content="Moises Pleytez">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
     <link rel="stylesheet" href="styles/hamburguer.css">
 
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburguer.js" defer></script>
 
-    <meta property="og:title" content="Apple">
+    <meta property="og:title" content="Herbert Ludwig">
     <meta property="og:description"
-        content="Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.">
-    <meta property="og:image"
-        content="https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743">
+        content="Find Your Best Local Medicare for you, the best prices and the best medic!">
+    <meta property="og:image" content="https://moisesph.github.io/wdd231/chamber/directory.html">
     <meta property="og:url" content="https://www.apple.com/">
 </head>
 
@@ -27,34 +27,40 @@
 
 
     <header>
-        <h1>Herbert Ludwig</h1>
-        <button type="button" id="menu"> </button>
-        <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://www.romsgames.net/tags/pokemon-roms/">Games</a></li>
-                <li><a href="https://www.romsgames.net/emulators/">Emulators</a>
-                    <!--These are not my websites, but they are good pages -->
+        <img src="images/favicon.svg" alt="Site Logo" width="512" height="512">
+        <span>Herbert Ludwig</span>
+        <button type="button" id="ham-btn" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a>
             </ul>
         </nav>
+
     </header>
     <main>
-        <h2>Home</h2>
+        <h1>Home</h1>
 
         <div>
-            <div class="embed-map-fixed">
-                <div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no"
-                        marginheight="0" marginwidth="0"
-                        src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Tegucigalpa&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe><a
-                        href="https://sprunkiretake.net"
-                        style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">Sprunki</a>
-                </div>
 
-            </div>
+
+        </div>
         </div>
         <div id="cards"></div>
     </main>
+
     <footer>
+
+        <div class="shareLinks">
+            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/moisespleytez/?locale=es_ES" target="_blank"><img
+                    src="images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.youtube.com/@Perro-G1" target="_blank"><img src="images/youtube.svg" alt="Youtube"></a>
+        </div>
+        </main>
+
         <p>©<span id="currentyear"></span> 🏆 Moises Pleytez 🏆 Honduras</p>
         <p id="low-case">Last Modification: <span id="lastModified"></span></p>
     </footer>
