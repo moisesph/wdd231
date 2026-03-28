@@ -125,11 +125,9 @@ h2 {
 
 h2 {
     color: var(--primary);
-}
-
-h2 {
     border-bottom: 1px solid black;
 }
+
 
 #cards section {
     display: flex;
