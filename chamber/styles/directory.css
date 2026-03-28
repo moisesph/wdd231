@@ -136,7 +136,7 @@ h2 {
     flex-direction: column;
     background-color: var(--background);
     place-items: center;
-    max-width: 30rem;
+    max-width: 21rem;
     flex: 1;
     min-width: 23rem;
     margin: 1rem 0;
@@ -148,6 +148,7 @@ h2 {
 
 #cards section p {
     font-size: 1rem;
+    padding: 0 1rem;
 }
 
 #cards section img {
@@ -159,49 +160,7 @@ h2 {
     border-radius: 10px;
 }
 
-/******************* Navigation **************************/
 
-.navigation {
-    display: none;
-
-}
-
-.navigation.show {
-    display: block;
-
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-
-.navigation a {
-    display: block;
-    padding: .8rem 10px;
-    color: #3D405B;
-    text-decoration: none;
-    border-bottom: solid 1px #ddd;
-
-}
-
-
-
-ul {
-    width: 100vw;
-}
-
-
-
-.navigation li.current {
-    background-color: #eee;
-}
-
-.navigation a:hover {
-    background-color: var(--pop-color);
-}
 
 
 
