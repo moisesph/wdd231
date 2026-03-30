@@ -1,12 +1,17 @@
+const screenWidth = window.innerWidth;
+const pcWidth = window.matchMedia('(min-width:a 38rem').matches;
+
+
 const companies = 'https://raw.githubusercontent.com/moisesph/wdd231/refs/heads/main/chamber/data/members.json';
 const cards = document.querySelector('#cards')
+const companiesRandom = companies.sort(() => Math.random() - 0.5)
+const companiesLimited = companiesRandom.slice(0, 3);
 
 async function getCompanyInformation() {
     const response = await fetch(companies);
     const data = await response.json(cards);
     console.table(data.prophets);
     displayCompanies(data.companies);
-
 }
 
 const displayCompanies = (companies) => {

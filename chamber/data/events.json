@@ -1,0 +1,14 @@
+{
+    "events": [
+        {
+            "name": "Injection free",
+            "addresses": "14 Urology Plaza, Dallas, TX 75201",
+            "website": "urology-care-experts.com",
+            "image": "",
+            "requirements": {
+                "minAge": 16,
+                "maxAge": 60
+            }
+        }
+    ]
+}
