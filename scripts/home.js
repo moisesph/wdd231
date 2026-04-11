@@ -166,24 +166,6 @@ function sumCredits(courses, nCourse) {
 }
 
 
-`
-function sumCreditsWithReduce(courses, nCourse) {
-    const totalCredits = document.querySelector('#creditsCount');
-    const initialValue = 0;
-
-    courses.forEach(course => {
-        if (course.completed && nCourse == course.subject) {
-            credits = course.reduce((credits, initialValue)=>{
-
-            }, return )
-            totalCredits.innerHTML = sCredits;
-        }
-
-    })
-}
-`
-
-
 const cseName = "CSE";
 const wddName = "WDD";
 
@@ -213,3 +195,10 @@ wdd.addEventListener('click', () => {
     sumCredits(courses, wddName);
 })
 
+
+const modal = document.querySelector('#Course-details');
+const closeModal =  document.querySelector('#closeModal');
+
+closseModal.addEventListener('click', () =>{
+    modal.closest();
+})
