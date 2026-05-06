@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -197,8 +197,8 @@ wdd.addEventListener('click', () => {
 
 
 const modal = document.querySelector('#Course-details');
-const closeModal =  document.querySelector('#closeModal');
+const closeModal = document.querySelector('#closeModal');
 
-closseModal.addEventListener('click', () =>{
+closseModal.addEventListener('click', () => {
     modal.closest();
 })
