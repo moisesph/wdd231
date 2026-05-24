@@ -32,6 +32,8 @@ const displayCompanies = (companies) => {
         if (count == limit) break;
         count++;
         let card = document.createElement('section');
+        let infoDiv = document.createElement('div');
+        let infoDiv2 = document.createElement('div');
         let name = document.createElement('h2');
         let locationImage = document.createElement('img');
         let email = document.createElement('p');
@@ -53,12 +55,15 @@ const displayCompanies = (companies) => {
         locationImage.setAttribute('height', '10');
 
         card.appendChild(name);
-        card.appendChild(locationImage);
-        card.appendChild(email);
-        card.appendChild(address);
-        card.appendChild(phone);
-        card.appendChild(website);
+        infoDiv.appendChild(locationImage);
+        infoDiv2.appendChild(email);
+        infoDiv2.appendChild(address);
+        infoDiv2.appendChild(phone);
+        infoDiv2.appendChild(website);
+        card.appendChild(infoDiv);
+        card.appendChild(infoDiv2);
         cards.appendChild(card);
+
 
 
     };

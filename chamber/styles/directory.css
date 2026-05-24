@@ -130,6 +130,8 @@ h2 {
 }
 
 
+/***************BODY - cards*******************/
+
 #cards section {
     display: flex;
     flex-direction: column;
@@ -139,6 +141,8 @@ h2 {
     flex: 1;
     min-width: 23rem;
     margin: 1rem 0;
+
+
 }
 
 #cards section h2 {
@@ -149,6 +153,7 @@ h2 {
     font-size: 1rem;
     padding: 0 1rem;
     text-align: center;
+
 }
 
 #cards section img {
@@ -207,12 +212,15 @@ footer {
     background-color: #f5eed4;
     border-radius: 10px;
     text-align: center;
+    margin: 2rem 0;
+
 }
 
-.card p {
+.card p,
+h3 {
     color: #3a5250;
     margin: .3rem 0;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .card #description {
@@ -228,8 +236,14 @@ footer {
 }
 
 
+/******************* WEATHER FORECAST**************************/
 
 
+#events img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
 
 
 
@@ -248,8 +262,8 @@ footer {
 #hero-text {
     position: absolute;
     color: var(--primary);
-    top: 16%;
-    left: 65%;
+    top: 20%;
+    left: 61%;
     font-size: 1.3rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);

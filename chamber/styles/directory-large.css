@@ -61,19 +61,77 @@
     /******************* SITE WIDE **************************/
     #cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     #cards section {
-        min-height: 45.5rem;
+        min-height: 23.5rem;
         display: grid;
         place-items: center;
     }
 
-    #cards img {
-        width: 200px;
-        height: 150px;
+    #cards section img {
+        width: 6rem;
+        height: 6rem;
         object-fit: cover;
 
     }
+
+    #hero-text {
+        top: 42%;
+        left: 66%;
+    }
+
+    /******************* BODY **************************/
+
+    /******************* Hero Image **************************/
+    #hero-image {
+        height: 15rem;
+    }
+
+
+    /******************* Cards Info **************************/
+    .cards-info {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+
+    /******************* Weather **************************/
+    .cards-info .card {
+        font-size: 1rem;
+        margin: 0 .3rem;
+
+    }
+
+    .cards-info .card figure {
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card p {
+        font-size: .9rem;
+
+    }
+
+
+    /******************* Events **************************/
+    .card #events {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+    /***************BODY - cards*******************/
+
+
+    #cards section {
+        transform: scale(0.7);
+        margin: -2rem;
+    }
+
+
+
 }

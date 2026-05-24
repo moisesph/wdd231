@@ -19,7 +19,7 @@ const displayEvents = (events) => {
     count = 0;
     limit = 0;
     if (pcWidth.matches) {
-        limit = 2;
+        limit = 1;
     }
     else {
         limit = 1;
