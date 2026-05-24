@@ -12,7 +12,7 @@
         {
             "name": "Sale Fruits",
             "location": "5 xdn't, meme, Idaho 11111",
-            "image": "https://raw.githubusercontent.com/moisesph/wdd231/main/chamber/images/event-one.jpg",
+            "image": "https://github.com/moisesph/wdd231/chamber/images/event-two.jpg",
             "requirements": {
                 "minAge": 16,
                 "maxAge": 60
