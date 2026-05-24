@@ -7,7 +7,6 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const weatherToday = `https://api.openweathermap.org/data/2.5/weather?lat=${tegucigalpaLat}&lon=${tegucigalpaLon}&units=metric&appid=${keyWeather}`;
 
-const weatherFuture = `api.openweathermap.org/data/2.5/forecast?lat=${tegucigalpaLat}&lon=${tegucigalpaLon}&appid=${keyWeather}`;
 
 
 async function apiFetch(url) {

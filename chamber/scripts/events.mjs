@@ -19,10 +19,10 @@ const displayEvents = (events) => {
     count = 0;
     limit = 0;
     if (pcWidth.matches) {
-        limit = 3; 
+        limit = 2;
     }
     else {
-        limit = 2
+        limit = 1;
     }
 
 
@@ -43,8 +43,8 @@ const displayEvents = (events) => {
         Image.setAttribute('src', event.image);
         Image.setAttribute('alt', `Advertisement of event: ${event.name}`)
         Image.setAttribute('loading', 'lazy');
-        Image.setAttribute('width', '204');
-        Image.setAttribute('height', '204');
+        Image.setAttribute('width', '10');
+        Image.setAttribute('height', '10');
 
 
         card.appendChild(name);
