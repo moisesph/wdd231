@@ -10,7 +10,7 @@ const cards = document.querySelector('#cards')
 async function getCompanyInformation() {
     const response = await fetch(companies);
     const data = await response.json(cards);
-    console.table(data.prophets);
+    console.table(data.companies);
     displayCompanies(data.companies);
 }
 
