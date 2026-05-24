@@ -14,8 +14,15 @@ async function getCompanyInformation() {
     displayCompanies(data.companies);
 }
 
+
 const displayCompanies = (companies) => {
-    companies.forEach(company => {
+
+    count = 0;
+
+
+    for (const company of companies) {
+
+        if (count == 2) break;
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let locationImage = document.createElement('img');
@@ -44,7 +51,9 @@ const displayCompanies = (companies) => {
         card.appendChild(phone);
         card.appendChild(website);
         cards.appendChild(card);
-    });
+
+        count++;
+    };
 
 }
 

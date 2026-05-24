@@ -8,5 +8,5 @@ const formattedDate = lastModified.toLocaleDateString('en-US', {
     day: '2-digit',
     year: 'numeric',
 }
-);
+); 
 document.getElementById("lastModified").innerHTML = document.lastModified;

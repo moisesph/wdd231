@@ -38,7 +38,7 @@ function displayResults(data) {
 }
 
 apiFetch(weatherToday);
-//apiFetch(weatherFuture);
 
 
+////////////////WEATHER FORECAST/////////////////////
 
