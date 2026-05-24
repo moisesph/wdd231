@@ -3,7 +3,7 @@
         {
             "name": "Free Samples Milk",
             "location": "14 Plaza Otaku, Dallas, Idaho 39593",
-            "image": "https://github.com/moisesph/wdd231/blob/main/chamber/images/event-one.jpg",
+            "image": "https://raw.githubusercontent.com/moisesph/wdd231/main/chamber/images/event-one.jpg",
             "requirements": {
                 "minAge": 16,
                 "maxAge": 60
