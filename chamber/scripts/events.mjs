@@ -18,7 +18,7 @@ const displayEvents = (events) => {
     count = 0;
     for (const event of events) {
 
-        if (count == 2) break;
+        if (count == 1) break;
         count++;
 
         let card = document.createElement('section');
