@@ -1,5 +1,5 @@
 const screenWidth = window.innerWidth;
-const pcWidth = window.matchMedia('(min-width:a 38rem').matches;
+const pcWidth = window.matchMedia('(min-width: 480px)');
 
 
 const companies = 'https://raw.githubusercontent.com/moisesph/wdd231/refs/heads/main/chamber/data/members.json';
@@ -18,11 +18,18 @@ async function getCompanyInformation() {
 const displayCompanies = (companies) => {
 
     count = 0;
+    limit = 0;
+    if (pcWidth.matches) {
+        limit = 3;
+    }
+    else {
+        limit = 2
+    }
 
 
     for (const company of companies) {
 
-        if (count == 2) break;
+        if (count == limit) break;
         count++;
         let card = document.createElement('section');
         let name = document.createElement('h2');

@@ -1,5 +1,5 @@
 const screenWidth = window.innerWidth;
-const pcWidth = window.matchMedia('(min-width:a 38rem').matches;
+const pcWidth = window.matchMedia('(min-width: 480px)');
 
 
 const events = 'https://raw.githubusercontent.com/moisesph/wdd231/refs/heads/main/chamber/data/events.json';
@@ -15,10 +15,21 @@ async function getEventInformation() {
 
 
 const displayEvents = (events) => {
+
     count = 0;
+    limit = 0;
+    if (pcWidth.matches) {
+        limit = 3; 
+    }
+    else {
+        limit = 2
+    }
+
+
+
     for (const event of events) {
 
-        if (count == 1) break;
+        if (count == limit) break;
         count++;
 
         let card = document.createElement('section');
