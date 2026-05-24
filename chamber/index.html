@@ -15,6 +15,7 @@
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburguer.js" defer></script>
+    <script type="module" src="scripts/events.mjs"></script>
     <script type="module" src="scripts/weather.mjs"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,9 +68,8 @@
             <div class="cards-info">
 
                 <section class="card">
-                    <H2>Events</H2>
-                    <figure>
-                    </figure>
+                    <h2>Events</h2>
+                    <div id="events"></div>
                 </section>
 
                 <section class="card">
@@ -93,6 +93,7 @@
                         <p>Thursday:</p>
                     </figure>
                 </section>
+
 
                 <section>
                     <div id="cards"></div>

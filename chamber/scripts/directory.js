@@ -10,7 +10,7 @@ const cards = document.querySelector('#cards')
 async function getCompanyInformation() {
     const response = await fetch(companies);
     const data = await response.json(cards);
-    console.table(data.companies);
+    // console.table(data.companies);
     displayCompanies(data.companies);
 }
 
@@ -23,6 +23,7 @@ const displayCompanies = (companies) => {
     for (const company of companies) {
 
         if (count == 2) break;
+        count++;
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let locationImage = document.createElement('img');
@@ -52,7 +53,7 @@ const displayCompanies = (companies) => {
         card.appendChild(website);
         cards.appendChild(card);
 
-        count++;
+
     };
 
 }
