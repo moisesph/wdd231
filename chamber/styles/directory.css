@@ -121,50 +121,17 @@ h1 {
 #cards,
 h2 {
     place-items: center;
+
 }
 
 
 h2 {
     color: var(--primary);
     border-bottom: 1px solid black;
-}
-
-
-/***************BODY - cards*******************/
-
-#cards section {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--background);
-    place-items: center;
-    max-width: 21rem;
-    flex: 1;
-    min-width: 23rem;
-    margin: 1rem 0;
-
 
 }
 
-#cards section h2 {
-    font-size: 2rem;
-}
 
-#cards section p {
-    font-size: 1rem;
-    padding: 0 1rem;
-    text-align: center;
-
-}
-
-#cards section img {
-    background-size: cover;
-    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
-    box-shadow: 5px 5px 10px #888;
-    width: 20rem;
-    height: auto;
-    border-radius: 10px;
-    border: solid 1px rgb(0, 0, 0);
-}
 
 
 
@@ -205,6 +172,44 @@ footer {
 }
 
 
+
+/***************BODY - cards*******************/
+
+#cards section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    place-items: center;
+    max-width: 21rem;
+    flex: 1;
+    min-width: 23rem;
+    margin: 1rem 0;
+
+
+}
+
+#cards section h2 {
+    font-size: 2rem;
+
+}
+
+#cards section p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+
+}
+
+#cards section img {
+    background-size: cover;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+    box-shadow: 5px 5px 10px #888;
+    width: 20rem;
+    height: auto;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
 /******************* WEATHER **************************/
 
 .card {
@@ -238,15 +243,18 @@ h3 {
 
 /******************* WEATHER FORECAST**************************/
 
+#events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #events img {
     width: 12rem;
     height: 12rem;
     border-radius: 1rem;
 }
-
-
-
 
 
 /******************* INDEX **************************/
