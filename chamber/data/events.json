@@ -3,7 +3,7 @@
         {
             "name": "Free Samples Milk",
             "addresses": "14 Urology Plaza, Dallas, TX 75201",
-            "image": "",
+            "image": "https://github.com/moisesph/wdd231/blob/main/chamber/images/event-one.jpg",
             "requirements": {
                 "minAge": 16,
                 "maxAge": 60
