@@ -32,8 +32,8 @@ const displayEvents = (events) => {
         Image.setAttribute('src', event.image);
         Image.setAttribute('alt', `Advertisement of event: ${event.name}`)
         Image.setAttribute('loading', 'lazy');
-        Image.setAttribute('width', '10');
-        Image.setAttribute('height', '10');
+        Image.setAttribute('width', '204');
+        Image.setAttribute('height', '204');
 
 
         card.appendChild(name);
