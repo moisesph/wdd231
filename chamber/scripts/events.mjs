@@ -29,6 +29,13 @@ const displayEvents = (events) => {
         name.textContent = `${event.name}`;
         location.textContent = `Location: ${event.location}`;
 
+        Image.setAttribute('src', event.image);
+        Image.setAttribute('alt', `Advertisement of event: ${event.name}`)
+        Image.setAttribute('loading', 'lazy');
+        Image.setAttribute('width', '10');
+        Image.setAttribute('height', '10');
+
+
         card.appendChild(name);
         card.appendChild(Image);
         card.append(location);
