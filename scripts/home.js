@@ -93,47 +93,63 @@ function showAllCourses(courses) {
     let rows = "";
 
     for (const course of courses) {
+        //console.log(course);
+        const highlightDiv = document.createElement('div')
+        const p = document.createElement('p');
 
         if (course.completed) {
-            rows += `
-        <div class="highlight"> 
-        <p>✔${course.subject} ${course.number}</p>
-        </div>
-`}
+
+            highlightDiv.classList.add('highlight');
+            p.textContent = `✔${course.subject} ${course.number}`;
+
+        }
         else {
-            rows += `
-        <div class="noHighlight"> 
-        <p>${course.subject} ${course.number}</p>
-        </div>`}
+
+            highlightDiv.classList.add('noHighlight');
+            p.textContent = `✔${course.subject} ${course.number}`;
+
+        }
+        highlightDiv.appendChild(p);
+        div.appendChild(highlightDiv);
     }
-    div.innerHTML = rows;
+
+
 }
 
 
 function filterCourses(courses, name) {
     // Shows the courses depending the subject and highlights which has been passed
     const div = document.querySelector('#showCourses');
+
     let rows = "";
     courses.forEach(course => {
         let filteredName = course.subject;
         let courseCompleted = course.completed
 
+        const highlightDiv = document.createElement('div')
+        const p = document.createElement('p');
+
+
+
+
         if (name == filteredName && courseCompleted) {
             rows += `
-            <div class="highlight"> 
-            <p>✔${course.subject} ${course.number}</p> 
-            </div>`
+                < div class="highlight" >
+                    <p>✔${course.subject} ${course.number}</p> 
+            </div> `
 
         }
 
         else if (name == filteredName) {
             rows += `
-            <div class="noHighlight"> 
-            <p>${course.subject} ${course.number}</p> 
-            </div>`
+                < div class="noHighlight" >
+                    <p>${course.subject} ${course.number}</p> 
+            </div> `
         }
         div.innerHTML = rows;
-    });
+    }
+    );
+
 }
 
 function sumAllCredits(courses) {
@@ -196,9 +212,36 @@ wdd.addEventListener('click', () => {
 })
 
 
-const modal = document.querySelector('#Course-details');
+
+////////////////// Modal /////////////////////////
+
+
+const courseDetails = document.querySelector('#Course-details');
 const closeModal = document.querySelector('#closeModal');
 
-closseModal.addEventListener('click', () => {
-    modal.closest();
-})
+
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+                < button id = "closeModal" >❌</button >
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+            `;
+    courseDetails.showModal();
+
+    closeModal.addEventListener('click', () => {
+        modal.close();
+    })
+
+    courseDiv.addEventListener('click', () => {
+        displayCourseDetails(course);
+    });
+
+}
+
+
