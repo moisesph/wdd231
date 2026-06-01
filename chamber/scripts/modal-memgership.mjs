@@ -1,5 +1,5 @@
 //I used internet for help in https://www.w3schools.com/howto/howto_css_modals.asp
-const modal = document.getElementById("myModal");
+const modal = document.getElementsByClassName("myModal");
 const btn = document.getElementById("openModal");
 const span = document.getElementsByClassName("close")[0];
 
@@ -16,3 +16,6 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+
+
+

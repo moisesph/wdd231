@@ -1,0 +1,12 @@
+@media only screen and (min-width: 38rem) {
+    main {
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        place-content: center;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+
+    }
+}
