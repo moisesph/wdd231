@@ -42,9 +42,9 @@
         <button type="button" id="ham-btn" class="hamburger"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li class="current"><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
@@ -57,29 +57,23 @@
         <div id="form-membership"></div>
         <form action="thankyou.html" method="GET">
 
-
-
-
-
-
             <h1>Membership Application Form</h1>
             <label for="fname">First name:<br>
-                <input type="text" id="fname" name="fname" autocomplete="given-name"></label><br>
+                <input required type="text" id="fname" name="fname" autocomplete="given-name"></label><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" autocomplete="family-name"><br>
+            <input required type="text" id="lname" name="lname" autocomplete="family-name"><br>
 
             <label for="company">Company Title:</label><br>
             <input name="company" id="company" type="txt" autocomplete="organization-title"
                 pattern="^[a-zA-Z- ]{7,}$"><br>
-            <!-- I got help by the IA, I didn't know what It means here or how I could implement it the pattern -->
-
+            <!-- I got help by the IA, I didn't know what It means here or how I could implement it the pattern ^[a-zA-Z- ]{7,}$ -->
 
             <label for="email">Email:</label><br>
-            <input name="email" id="email" type="email" autocomplete="off" placeholder="example@gmail.com"
+            <input required name="email" id="email" type="email" autocomplete="off" placeholder="example@gmail.com"
                 title="Enter your Email"><br>
 
             <label for="phone">Phone:</label><br>
-            <input name="phone" id="phone" type="phone" autocomplete="tel" title="Enter your phone"><br>
+            <input required name="phone" id="phone" type="phone" autocomplete="tel" title="Enter your phone"><br>
 
             <label for="organization">Organization's Name:</label><br>
             <input required name="organization" id="organization" type="text" title="Enter your organization's name"
@@ -116,7 +110,7 @@
             <button id="openModal">Learn More</button>
             <div id="no-profitable" class="modal-card"></div>
 
-            <div id="myModal" class="modal">
+            <div id="np" class="modal">
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <h3>Non Profit Membership Level</h3>
@@ -129,6 +123,15 @@
         <div class="card-membership">
             <h2>Bronze Membership Level</h2>
             <button>Learn More</button>
+
+            <div id="bronze" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Non Profit Membership Level</h3>
+                    <p>Cost: 0$</p>
+                    <p>benefits: Free Profile and access to events information</p>
+                </div>
+            </div>
         </div>
 
         <div class="card-membership">
