@@ -1,0 +1,20 @@
+:root {
+    --main-color: #5A9BD5;
+    --secondary-color: #1F3F66;
+    --background-content: #B7D7F0;
+    --around-background: #EDF6FF;
+    --background-white: #FFFFFF;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
