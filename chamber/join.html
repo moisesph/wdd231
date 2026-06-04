@@ -108,44 +108,61 @@
         </div>
 
 
-
-
+        <!-- Got help from this video https://www.youtube.com/watch?v=R32sHnAFhkA -->
         <!-- MODALS -->
-        <div>
+        <div id="all-memberships">
             <h1>Membership Levels</h1>
             <div class="card-membership">
                 <h2>Non Profit Membership Level</h2>
-                <button id="openModal">Learn More</button>
-                <div id="no-profitable" class="modal-card"></div>
+                <button id="openButton1">Learn More</button>
 
-                <!-- Got help from this video https://www.youtube.com/watch?v=R32sHnAFhkA -->
-                <dialog class="modal" id="np"></dialog>
-
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <h3>Non Profit Membership Level</h3>
-                        <p>Cost: 0$</p>
-                        <p>benefits: Free Profile and access to events information</p>
-                    </div>
-                </div>
+                <dialog id="dialogBox1">
+                    <h3>Non Profit</h3>
+                    <p>cost: 0$ <br>
+                        benefits: Free Profile and access to events information</p>
+                    <button id="closeButton1">Close</button>
+                </dialog>
             </div>
+
+
+
+
 
             <div class="card-membership">
                 <h2>Bronze Membership Level</h2>
-                <button>Learn More</button>
+                <button id="openButton2">Learn More</button>
 
+                <dialog id="dialogBox2">
+                    <h3>Bronze</h3>
+                    <p>cost: 30$ <br>
+                        benefits: Show you profile and products in the website</p>
+                    <button id="closeButton2">Close</button>
+                </dialog>
 
             </div>
 
             <div class="card-membership">
                 <h2>Silver Membership Level</h2>
-                <button>Learn More</button>
+                <button id="openButton3">Learn More</button>
+
+                <dialog id="dialogBox3">
+                    <h3>Silver</h3>
+                    <p>cost: 60$ <br>
+                        benefits: Create your own clan! and show your activities</p>
+                    <button id="closeButton3">Close</button>
+                </dialog>
             </div>
 
             <div class="card-membership">
                 <h2>Gold Membership Level</h2>
-                <button>Learn More</button>
+                <button id="openButton4">Learn More</button>
+
+                <dialog id="dialogBox4">
+                    <h3>Gold</h3>
+                    <p>cost: 100$ <br>
+                        benefits: Show all your information at the entry page over other memberships levels</p>
+                    <button id="closeButton4">Close</button>
+                </dialog>
             </div>
 
         </div>
