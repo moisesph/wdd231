@@ -11,8 +11,8 @@
     }
 
     #thanks-image {
-        width: 100px;
+        width: 600px;
         min-height: auto;
-        border-radius: 600px;
+        border-radius: 14px;
     }
 }
