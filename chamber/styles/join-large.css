@@ -9,4 +9,10 @@
         font-size: 1.2rem;
 
     }
+
+    #thanks-image {
+        width: 100px;
+        min-height: auto;
+        border-radius: 600px;
+    }
 }

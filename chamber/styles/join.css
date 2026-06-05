@@ -117,11 +117,12 @@ dialog h3 {
 /* THANKS IMAGE */
 
 #thanks {
-    text-align: center; 
+    text-align: center;
+
 }
 
 #thanks-image {
-    width: 600px;
+    width: 300px;
     min-height: auto;
     border-radius: 14px;
 }
