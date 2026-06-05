@@ -111,3 +111,17 @@ dialog h3 {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+/* THANKS IMAGE */
+
+#thanks {
+    text-align: center; 
+}
+
+#thanks-image {
+    width: 600px;
+    min-height: auto;
+    border-radius: 14px;
+}
