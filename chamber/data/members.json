@@ -1,7 +1,7 @@
 {
   "companies": [
     {
-      "name": "Boutique de Ropa Moderna",
+      "name": "Modern Clothing Boutique",
       "addresses": "450 Fashion Way, Houston, TX 77030",
       "email": "info@modern-fashion-boutique.com",
       "phone": 7135550111,
@@ -14,7 +14,7 @@
       }
     },
     {
-      "name": "Supermercado Central",
+      "name": "Central Supermarket",
       "addresses": "102 Market Blvd, Los Angeles, CA 90001",
       "email": "contact@central-market-groceries.com",
       "phone": 2135550222,
@@ -27,7 +27,7 @@
       }
     },
     {
-      "name": "Zapatería Urbana",
+      "name": "Urban Shoe Store",
       "addresses": "789 Shoe & Sneaker St, Phoenix, AZ 85001",
       "email": "support@urban-shoes-store.org",
       "phone": 6025550333,
@@ -40,11 +40,11 @@
       }
     },
     {
-      "name": "Librería Páginas",
+      "name": "Pages Bookstore",
       "addresses": "321 Bookworm Lane, Philadelphia, PA 19104",
-      "email": "hello@paginas-bookstore.net",
+      "email": "hello@pages-bookstore.net",
       "phone": 2155550444,
-      "website": "paginas-bookstore.net",
+      "website": "pages-bookstore.net",
       "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
       "membership": {
         "member": 1,
@@ -53,7 +53,7 @@
       }
     },
     {
-      "name": "Tienda de Electrónica Tecno",
+      "name": "Tecno Electronics Store",
       "addresses": "555 Gadget Dr, Atlanta, GA 30301",
       "email": "sales@tecno-electronics.io",
       "phone": 4045550555,
@@ -66,11 +66,11 @@
       }
     },
     {
-      "name": "Juguetería Diversión",
+      "name": "Fun Toy Store",
       "addresses": "88 Toy Paradise Ave, Chicago, IL 60601",
-      "email": "joy@diversion-toy-store.com",
+      "email": "joy@fun-toy-store.com",
       "phone": 3125550666,
-      "website": "diversion-toy-store.com",
+      "website": "fun-toy-store.com",
       "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
       "membership": {
         "member": 1,
@@ -79,11 +79,11 @@
       }
     },
     {
-      "name": "Ferretería El Tornillo",
+      "name": "The Bolt Hardware Store",
       "addresses": "14 Hardware Plaza, Dallas, TX 75201",
-      "email": "sales@eltornillo-hardware.com",
+      "email": "sales@thebolt-hardware.com",
       "phone": 2145550777,
-      "website": "eltornillo-hardware.com",
+      "website": "thebolt-hardware.com",
       "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189",
       "membership": {
         "member": 1,
