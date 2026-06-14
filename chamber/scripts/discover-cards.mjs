@@ -35,6 +35,8 @@ async function showPlaces(places) {
         image.setAttribute('width', '10');
         image.setAttribute('height', '10');
 
+        btn.setAttribute('onclick', `window.location.href='${place.url}'`);
+
         card.appendChild(title);
         card.appendChild(figure);
         figure.appendChild(image);

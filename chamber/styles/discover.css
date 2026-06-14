@@ -80,7 +80,7 @@ main {
 }
 
 .cards button {
-    background-color: gray;
+    background-color: rgb(48, 48, 48);
     color: white;
     padding: .6rem .4rem;
     width: 75%;
