@@ -28,7 +28,7 @@ async function showPlaces(places) {
         figureTxt.textContent = `${place.name}`;
         address.textContent = `${place.location}`;
         description.textContent = `${place.description}`;
-        btn.textContent = 'Visit';
+        btn.textContent = 'Learn More';
         image.setAttribute('src', place.image);
         image.setAttribute('alt', `image of ${place.name}`);
         image.setAttribute('loading', 'lazy');
