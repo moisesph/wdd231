@@ -35,8 +35,8 @@ main {
 
     grid-template-areas:
         "name"
-        "address"
         "description"
+        "address"
         "figure"
         "button";
 }
@@ -55,6 +55,7 @@ main {
 .cards p {
     font-size: .8rem;
     grid-area: description;
+    padding: 0 .3rem;
 }
 
 .cards figure {
