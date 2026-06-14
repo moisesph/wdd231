@@ -8,6 +8,15 @@
 
 }
 
+main {
+    place-items: center;
+
+}
+
+#welcome h1 {
+    text-align: center;
+}
+
 
 
 /* cards */

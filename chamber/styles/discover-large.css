@@ -1,6 +1,14 @@
 @media (min-width: 1025px) {
 
 
+
+    /* Welcome */
+    #welcome h1 {
+        font-size: 2rem;
+    }
+
+
+    /* Cards */
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
