@@ -1,4 +1,79 @@
-img {
-    width: 300px;
-    height: 200px;
+:root {
+
+    --primary: #155650;
+    --secondary: #1f7396;
+    --background: #cfd5db;
+    --text: #1E293B;
+
+
+}
+
+
+
+/* cards */
+
+.cards section {
+    display: grid;
+    background-color: var(--background);
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    max-width: 22rem;
+    min-width: 17rem;
+    margin: 1rem;
+    padding: .6rem 0;
+    border-radius: .6rem;
+
+    grid-template-areas:
+        "name"
+        "address"
+        "description"
+        "figure"
+        "button";
+}
+
+#discover-cards h2 {
+    grid-area: name;
+    justify-self: left;
+    margin: .3rem .7rem;
+
+}
+
+.cards address {
+    grid-area: address;
+}
+
+.cards p {
+    font-size: .8rem;
+    grid-area: description;
+}
+
+.cards figure {
+    /* width 100% to let the image cover all the space */
+    grid-area: figure;
+    width: 100%;
+}
+
+.cards img {
+    background-size: cover;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+    width: 99%;
+    height: auto;
+    border: solid 1px rgb(0, 0, 0);
+    grid-area: picture;
+    min-height: 12rem;
+    max-height: 12rem;
+}
+
+.cards figcaption {
+    grid-area: figcaption;
+    display: none;
+}
+
+.cards button {
+    background-color: gray;
+    color: white;
+    padding: .6rem .4rem;
+    width: 75%;
+    border-radius: 2rem;
 }

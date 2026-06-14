@@ -1,0 +1,34 @@
+@media (min-width: 1025px) {
+
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards section {
+
+        grid-template-columns: 1fr 1fr;
+        max-width: 60rem;
+        grid-template-areas:
+
+            "name   name"
+            "figure description "
+            "figure address"
+            "button button"
+
+        ;
+    }
+
+    .cards button {
+        justify-self: stretch;
+        margin: 0 .6rem;
+        width: 187%;
+    }
+
+
+    .cards p {
+        margin: 0 .2rem;
+
+    }
+}
