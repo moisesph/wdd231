@@ -1,12 +1,12 @@
 {
   "companies": [
     {
-      "name": "Oncologist",
-      "addresses": "450 Cancer Care Way, Houston, TX 77030",
-      "email": "info@advanced-oncology-center.com",
+      "name": "Boutique de Ropa Moderna",
+      "addresses": "450 Fashion Way, Houston, TX 77030",
+      "email": "info@modern-fashion-boutique.com",
       "phone": 7135550111,
-      "website": "advanced-oncology-center.com",
-      "image": "https://www.virtua.org/-/media/Project/Virtua-Tenant/Virtua/Images/Locations/Hospitals-and-Emergency-Departments/Virtua-Voorhees-Hospital-new.jpg?h=900&iar=0&w=1200&hash=E76552EDBAE2C29F9A2294B2B32E2018",
+      "website": "modern-fashion-boutique.com",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
       "membership": {
         "member": 1,
         "silver": 2,
@@ -14,12 +14,12 @@
       }
     },
     {
-      "name": "Dentist",
-      "addresses": "102 Smile Blvd, Los Angeles, CA 90001",
-      "email": "contact@bright-smile-dental.com",
+      "name": "Supermercado Central",
+      "addresses": "102 Market Blvd, Los Angeles, CA 90001",
+      "email": "contact@central-market-groceries.com",
       "phone": 2135550222,
-      "website": "bright-smile-dental.com",
-      "image": "https://bswh-p-001.sitecorecontenthub.cloud/api/public/content/c28627f27dfe46bc831b5345f4315b02?v=6f91f2b5",
+      "website": "central-market-groceries.com",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e",
       "membership": {
         "member": 1,
         "silver": 2,
@@ -27,12 +27,12 @@
       }
     },
     {
-      "name": "Orthopedic Surgeon",
-      "addresses": "789 Bone & Joint St, Phoenix, AZ 85001",
-      "email": "support@ortho-recovery-specialists.org",
+      "name": "Zapatería Urbana",
+      "addresses": "789 Shoe & Sneaker St, Phoenix, AZ 85001",
+      "email": "support@urban-shoes-store.org",
       "phone": 6025550333,
-      "website": "ortho-recovery-specialists.org",
-      "image": "https://www.nationwidechildrens.org/-/media/nch/locations/images/downtown_urgent_care.jpg?w=434&h=290&as=1&bc=FFFFFF&hash=AF83C46016862CB6BCF8881E0E69C0B4",
+      "website": "urban-shoes-store.org",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772",
       "membership": {
         "member": 1,
         "silver": 2,
@@ -40,12 +40,12 @@
       }
     },
     {
-      "name": "Endocrinologist",
-      "addresses": "321 Hormone Lane, Philadelphia, PA 19104",
-      "email": "hello@metabolic-health-clinic.net",
+      "name": "Librería Páginas",
+      "addresses": "321 Bookworm Lane, Philadelphia, PA 19104",
+      "email": "hello@paginas-bookstore.net",
       "phone": 2155550444,
-      "website": "metabolic-health-clinic.net",
-      "image": "https://assets.clevelandclinic.org/transform/LargeFeatureImage/5896d6b8-61c2-4c13-993e-eda89c7fe323/23-NEU-3627359-CQD-Hero-650x450-1_jpg",
+      "website": "paginas-bookstore.net",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
       "membership": {
         "member": 1,
         "silver": 2,
@@ -53,12 +53,12 @@
       }
     },
     {
-      "name": "Radiologist",
-      "addresses": "555 Imaging Dr, Atlanta, GA 30301",
-      "email": "results@precision-diagnostics.io",
+      "name": "Tienda de Electrónica Tecno",
+      "addresses": "555 Gadget Dr, Atlanta, GA 30301",
+      "email": "sales@tecno-electronics.io",
       "phone": 4045550555,
-      "website": "precision-diagnostics.io",
-      "image": "https://radiotoday.co.uk/wp-content/uploads/2025/03/Fareham-Bauer.jpg",
+      "website": "tecno-electronics.io",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12",
       "membership": {
         "member": 1,
         "silver": 2,
@@ -66,12 +66,12 @@
       }
     },
     {
-      "name": "Gastroenterologist",
-      "addresses": "88 Digestive Health Ave, Chicago, IL 60601",
-      "email": "wellness@gi-wellness-center.com",
+      "name": "Juguetería Diversión",
+      "addresses": "88 Toy Paradise Ave, Chicago, IL 60601",
+      "email": "joy@diversion-toy-store.com",
       "phone": 3125550666,
-      "website": "gi-wellness-center.com",
-      "image": "https://delhieyecentre.in/wp-content/uploads/2025/12/Untitled-1-scaled.jpg",
+      "website": "diversion-toy-store.com",
+      "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7",
       "membership": {
         "member": 1,
         "silver": 2,
@@ -79,12 +79,12 @@
       }
     },
     {
-      "name": "Urologist",
-      "addresses": "14 Urology Plaza, Dallas, TX 75201",
-      "email": "portal@urology-care-experts.com",
+      "name": "Ferretería El Tornillo",
+      "addresses": "14 Hardware Plaza, Dallas, TX 75201",
+      "email": "sales@eltornillo-hardware.com",
       "phone": 2145550777,
-      "website": "urology-care-experts.com",
-      "image": "https://www.holstonmedicalgroup.com/assets/img/locations/the-urology-clinic-bristol.jpg",
+      "website": "eltornillo-hardware.com",
+      "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189",
       "membership": {
         "member": 1,
         "silver": 2,

@@ -1,6 +1,11 @@
 @media (min-width: 641px) and (max-width: 1024px) {
 
 
+    main {
+        place-items: center;
+        display: flex;
+    }
+
     /* Welcome */
     #welcome h1 {
         font-size: 2rem;

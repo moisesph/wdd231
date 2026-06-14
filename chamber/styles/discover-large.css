@@ -1,6 +1,9 @@
 @media (min-width: 1025px) {
 
-
+    main {
+        place-items: center;
+        display: flex;
+    }
 
     /* Welcome */
     #welcome h1 {

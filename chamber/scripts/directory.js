@@ -4,8 +4,7 @@ const pcWidth = window.matchMedia('(min-width: 480px)');
 
 const companies = 'https://raw.githubusercontent.com/moisesph/wdd231/refs/heads/main/chamber/data/members.json';
 const cards = document.querySelector('#cards')
-//const companiesRandom = companies.sort(() => Math.random() - 0.5)
-//const companiesLimited = companiesRandom.slice(0, 3);
+
 
 async function getCompanyInformation() {
     const response = await fetch(companies);
@@ -19,11 +18,19 @@ const displayCompanies = (companies) => {
 
     count = 0;
     limit = 0;
-    if (pcWidth.matches) {
+
+    let page = localStorage.getItem("currentPage");
+
+    if (page == "directory") {
+        limit = Infinity;
+        localStorage.setItem("currentPage", "reset");
+    }
+
+    else if (pcWidth.matches) {
         limit = 3;
     }
     else {
-        limit = 2
+        limit = 2;
     }
 
 

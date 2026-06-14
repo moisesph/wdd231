@@ -10,7 +10,7 @@
 
 main {
     place-items: center;
-
+    display: flex;
 }
 
 #welcome h1 {
