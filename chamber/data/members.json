@@ -1,7 +1,7 @@
 {
   "companies": [
     {
-      "name": "Modern Clothing Boutique",
+      "name": "Clothing Boutique",
       "addresses": "450 Fashion Way, Houston, TX 77030",
       "email": "info@modern-fashion-boutique.com",
       "phone": 7135550111,
@@ -27,7 +27,7 @@
       }
     },
     {
-      "name": "Urban Shoe Store",
+      "name": "Urban Shoe",
       "addresses": "789 Shoe & Sneaker St, Phoenix, AZ 85001",
       "email": "support@urban-shoes-store.org",
       "phone": 6025550333,
@@ -53,7 +53,7 @@
       }
     },
     {
-      "name": "Tecno Electronics Store",
+      "name": "Tecno Electronics",
       "addresses": "555 Gadget Dr, Atlanta, GA 30301",
       "email": "sales@tecno-electronics.io",
       "phone": 4045550555,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "name": "The Bolt Hardware Store",
+      "name": "The Bolt Hardware",
       "addresses": "14 Hardware Plaza, Dallas, TX 75201",
       "email": "sales@thebolt-hardware.com",
       "phone": 2145550777,
