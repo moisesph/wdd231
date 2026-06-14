@@ -26,10 +26,12 @@ function welcome() {
 
     else if (daysPassed == 1) {
         title.textContent = `You last visited ${daysPassed} day ago.`
+        localStorage.setItem('lastVisit', currentVisit)
     }
 
     else {
         title.textContent = `You last visited ${daysPassed} days ago.`
+        localStorage.setItem('lastVisit', currentVisit)
     }
     bienvenido.appendChild(title)
     console.log(lastVisit);
