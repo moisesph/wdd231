@@ -57,7 +57,7 @@ async function showMedicines(medicines) {
         image.setAttribute('width', '10');
         image.setAttribute('height', '10');
         btn.setAttribute('class', medicine.availability ? 'ava' : 'oos');
-        btn.setAttribute('onclick', `window.location.href='products.html'`);
+        //btn.setAttribute('onclick', `window.location.href='products.html'`);
         btn.setAttribute('id', `open-button${medicine.id}`)
         modalInfo.setAttribute('id', `box${medicine.id}`)
         btnClose.setAttribute('id', `close-button${medicine.id}`)
@@ -71,6 +71,15 @@ async function showMedicines(medicines) {
         card.appendChild(modalInfo);
 
         cards.appendChild(card);
+
+        btn.addEventListener("click", () => {
+            modalInfo.showModal()
+        });
+        btnClose.addEventListener("click", () => {
+            dialogBox1.close();
+        });
+
+
     }
 }
 
