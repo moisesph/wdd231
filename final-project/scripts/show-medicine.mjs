@@ -12,24 +12,6 @@ async function getMedicines() {
     }
 }
 
-async function showMedicineModal(medicine) {
-
-    let modal = document.createElement('div');
-    let name = document.createElement('h2');
-    let price = document.createElement('p');
-    let concentration = document.createElement('p');
-    let indications = document.createElement('p');
-    let directions = document.createElement('p');
-    let warning = document.createElement('p');
-    let availability = document.createElement('p');
-    let btn = document.createElement('button');
-
-    price.textContent = `${medicine.price}`;
-
-
-
-}
-
 
 
 
@@ -50,6 +32,7 @@ async function showMedicines(medicines) {
 
         availability.textContent = medicine.availability ? 'On Stock' : 'Out of Stock';
         btn.textContent = `${availability.textContent}`;
+        btnClose.textContent = `Close`;
 
         image.setAttribute('src', medicine.image);
         image.setAttribute('alt', `Medicine: ${medicine.image}`);
@@ -76,7 +59,7 @@ async function showMedicines(medicines) {
             modalInfo.showModal()
         });
         btnClose.addEventListener("click", () => {
-            dialogBox1.close();
+            modalInfo.close();
         });
 
 
