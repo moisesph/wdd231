@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+@media (min-width: 641px) {
 
     header,
     main,
@@ -62,22 +62,35 @@
         display: none;
     }
 
-    /******************* SITE WIDE **************************/
-    #cards {
+
+    /* /////////////// INDEX.HTML /////////////////// */
+
+
+    /******************* Hero Image **************************/
+
+
+    #hero-text {
+
+        top: 40%;
+        left: 68%;
+
+    }
+
+
+    /******************* Doctors **************************/
+    #doctors {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 
-    #cards section {
-        min-height: 45.5rem;
-        display: grid;
-        place-items: center;
-    }
-
-    #cards img {
-        width: 200px;
-        height: 150px;
-        object-fit: cover;
+        grid-template-columns: 1fr 1fr 1fr;
 
     }
+
+    #doctors h1 {
+        grid-column: span 3;
+    }
+
+    #doctors section {
+        zoom: 0.7;
+    }
+
 }

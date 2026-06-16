@@ -1,6 +1,5 @@
 import medicinesInfo from '../data/medicines.mjs';
 
-const cardTittle = document.querySelector('#medicine-section');
 const cards = document.querySelector('#medicine-section');
 
 async function getMedicines() {
@@ -15,9 +14,6 @@ async function getMedicines() {
 
 async function showMedicines(medicines) {
 
-    let title = document.createElement('h1');
-    title.textContent = `Know us`;
-    cardTittle.appendChild(title);
 
     for (const medicine of medicines) {
         let card = document.createElement('section');
@@ -42,7 +38,7 @@ async function showMedicines(medicines) {
         image.setAttribute('height', '10');
 
         btn.textContent = `${availability.textContent}`;
-        btn.setAttribute('onclick', `window.location.href=''`);
+        btn.setAttribute('onclick', `window.location.href='products.html'`);
 
         card.appendChild(name);
         card.appendChild(image);

@@ -1,5 +1,5 @@
 @media (min-width: 641px) and (max-width: 1024px) {
-
+/* this document is not being used */
     header,
     main,
     nav,
@@ -62,22 +62,5 @@
         display: none;
     }
 
-    /******************* SITE WIDE **************************/
-    #cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 
-    #cards section {
-        min-height: 45.5rem;
-        display: grid;
-        place-items: center;
-    }
-
-    #cards img {
-        width: 200px;
-        height: 150px;
-        object-fit: cover;
-
-    }
 }

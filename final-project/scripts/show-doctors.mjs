@@ -36,7 +36,7 @@ async function showDoctors(doctors) {
         email.textContent = `${doctor.email}`;
         address.textContent = `${doctor.location}`;
 
-        btn.textContent = 'Learn More';
+        btn.textContent = 'Make Appointment';
         image.setAttribute('src', doctor.image);
         image.setAttribute('alt', `image of ${doctor.image}`);
         image.setAttribute('loading', 'lazy');
