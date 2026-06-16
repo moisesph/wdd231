@@ -1,6 +1,7 @@
 @media (min-width: 641px) {
 
     header,
+    ul,
     main,
     nav,
     footer {
@@ -92,5 +93,21 @@
     #doctors section {
         zoom: 0.7;
     }
+
+
+
+    /******************* Appointment Call **************************/
+
+    #appointment-section {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 2px solid #333;
+        padding-top: 1rem;
+        border-top: 2px solid #6d6d6d;
+    }
+
+
 
 }

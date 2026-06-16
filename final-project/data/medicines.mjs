@@ -1,5 +1,6 @@
 export default [
     {
+        "id": "0001",
         "commercial_name": "Panadol Ultra",
         "active_ingredient": "Paracetamol + Caffeine",
         "price": 120.00,
@@ -12,6 +13,7 @@ export default [
         "image": "images/medicines/panadol-ultra.webp"
     },
     {
+        "id": "0002",
         "commercial_name": "Amoxil",
         "active_ingredient": "Amoxicillin",
         "price": 250.00,
@@ -24,6 +26,7 @@ export default [
         "image": "images/medicines/amoxil.webp"
     },
     {
+        "id": "0003",
         "commercial_name": "Advil Liqui-Gels",
         "active_ingredient": "Ibuprofen",
         "price": 95.00,
@@ -36,6 +39,7 @@ export default [
         "image": "images/medicines/advil-liqui-gels.webp"
     },
     {
+        "id": "0004",
         "commercial_name": "Zyrtec",
         "active_ingredient": "Cetirizine Hydrochloride",
         "price": 180.00,
@@ -48,6 +52,7 @@ export default [
         "image": "images/medicines/zyrtec.webp"
     },
     {
+        "id": "0005",
         "commercial_name": "Lipitor",
         "active_ingredient": "Atorvastatin Calcium",
         "price": 420.00,
@@ -60,6 +65,7 @@ export default [
         "image": "images/medicines/lipitor.webp"
     },
     {
+        "id": "0006",
         "commercial_name": "Glucophage",
         "active_ingredient": "Metformin Hydrochloride",
         "price": 150.00,
@@ -72,6 +78,7 @@ export default [
         "image": "images/medicines/glucophage.webp"
     },
     {
+        "id": "0007",
         "commercial_name": "Voltaren Emulgel",
         "active_ingredient": "Diclofenac Diethylammonium",
         "price": 135.00,
@@ -84,6 +91,7 @@ export default [
         "image": "images/medicines/voltaren-emulgel.webp"
     },
     {
+        "id": "0008",
         "commercial_name": "Ventolin Evohaler",
         "active_ingredient": "Albuterol (Salbutamol)",
         "price": 210.00,
@@ -96,6 +104,7 @@ export default [
         "image": "images/medicines/ventolin-evohaler.webp"
     },
     {
+        "id": "0009",
         "commercial_name": "Nexium",
         "active_ingredient": "Esomeprazole Magnesium",
         "price": 310.00,
@@ -108,6 +117,7 @@ export default [
         "image": "images/medicines/nexium.webp"
     },
     {
+        "id": "0010",
         "commercial_name": "Imodium Annum",
         "active_ingredient": "Loperamide Hydrochloride",
         "price": 60.00,
@@ -120,6 +130,7 @@ export default [
         "image": "images/medicines/imodium-annum.webp"
     },
     {
+        "id": "0011",
         "commercial_name": "Lasix",
         "active_ingredient": "Furosemide",
         "price": 85.00,
@@ -132,6 +143,7 @@ export default [
         "image": "images/medicines/lasix.webp"
     },
     {
+        "id": "0012",
         "commercial_name": "Buscopan Duo",
         "active_ingredient": "Hyoscine Butylbromide + Paracetamol",
         "price": 115.00,

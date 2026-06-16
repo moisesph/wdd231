@@ -16,7 +16,7 @@ async function getDoctors() {
 async function showDoctors(doctors) {
 
     let title = document.createElement('h1');
-    title.textContent = `Know us`;
+    title.textContent = `We’re so glad you’re here!`;
     cardTittle.appendChild(title);
 
 

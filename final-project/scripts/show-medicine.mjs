@@ -12,6 +12,28 @@ async function getMedicines() {
     }
 }
 
+async function showMedicineModal(medicine) {
+
+    let modal = document.createElement('div');
+    let name = document.createElement('h2');
+    let price = document.createElement('p');
+    let concentration = document.createElement('p');
+    let indications = document.createElement('p');
+    let directions = document.createElement('p');
+    let warning = document.createElement('p');
+    let availability = document.createElement('p');
+    let btn = document.createElement('button');
+
+    price.textContent = `${medicine.price}`;
+
+
+
+}
+
+
+
+
+
 async function showMedicines(medicines) {
 
 
@@ -19,34 +41,39 @@ async function showMedicines(medicines) {
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let image = document.createElement('img');
-        let price = document.createElement('p');
         let availability = document.createElement('p');
-        let concentration = document.createElement('p');
-        let indications = document.createElement('p');
-        let directions = document.createElement('p');
-        let warning = document.createElement('p');
         let btn = document.createElement('button');
+        let modalInfo = document.createElement('dialog');
+        let btnClose = document.createElement('button');
 
         name.textContent = `${medicine.commercial_name}`;
-        price.textContent = `${medicine.price}`;
+
         availability.textContent = medicine.availability ? 'On Stock' : 'Out of Stock';
+        btn.textContent = `${availability.textContent}`;
 
         image.setAttribute('src', medicine.image);
-        image.setAttribute('alt', `image of ${medicine.image}`);
+        image.setAttribute('alt', `Medicine: ${medicine.image}`);
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '10');
         image.setAttribute('height', '10');
-
-        btn.textContent = `${availability.textContent}`;
+        btn.setAttribute('class', medicine.availability ? 'ava' : 'oos');
         btn.setAttribute('onclick', `window.location.href='products.html'`);
+        btn.setAttribute('id', `open-button${medicine.id}`)
+        modalInfo.setAttribute('id', `box${medicine.id}`)
+        btnClose.setAttribute('id', `close-button${medicine.id}`)
 
+
+        modalInfo.appendChild(name);
+        modalInfo.appendChild(btnClose);
         card.appendChild(name);
         card.appendChild(image);
-
         card.appendChild(btn);
+        card.appendChild(modalInfo);
 
         cards.appendChild(card);
     }
 }
+
+
 
 getMedicines();
