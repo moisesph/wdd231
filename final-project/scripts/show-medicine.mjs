@@ -26,12 +26,16 @@ async function showMedicines(medicines) {
         let availability = document.createElement('p');
         let btn = document.createElement('button');
         let modalInfo = document.createElement('dialog');
+        let nameModal = document.createElement('h2');
+        let priceModal = document.createElement('p');
         let btnClose = document.createElement('button');
 
         name.textContent = `${medicine.commercial_name}`;
 
         availability.textContent = medicine.availability ? 'On Stock' : 'Out of Stock';
         btn.textContent = `${availability.textContent}`;
+        nameModal.textContent = name.textContent;
+        priceModal.textContent`${medicine.price}`
         btnClose.textContent = `Close`;
 
         image.setAttribute('src', medicine.image);
@@ -46,7 +50,7 @@ async function showMedicines(medicines) {
         btnClose.setAttribute('id', `close-button${medicine.id}`)
 
 
-        modalInfo.appendChild(name);
+        modalInfo.appendChild(nameModal);
         modalInfo.appendChild(btnClose);
         card.appendChild(name);
         card.appendChild(image);
