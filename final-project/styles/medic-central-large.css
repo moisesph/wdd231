@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media (min-width: 1025px) {
 
     header,
     main,
@@ -21,6 +21,10 @@
     header img {
         margin: .6rem 0 .5rem 0;
         font-size: 1.3rem;
+    }
+
+    header span {
+        margin-left: 1rem;
     }
 
     header img {
