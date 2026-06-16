@@ -250,3 +250,12 @@ footer {
     border-radius: 10px;
     border: solid 1px rgb(0, 0, 0);
 }
+
+
+/******************* Map **************************/
+
+.map {
+    border: none;
+    width: 300px;
+    height: 300px;
+}
