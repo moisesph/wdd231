@@ -5,7 +5,7 @@ const cards = document.querySelector('#doctors');
 
 async function getDoctors() {
     try {
-        console.log(doctorsInfo);
+
         showDoctors(doctorsInfo);
     }
     catch (error) {

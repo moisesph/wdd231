@@ -2,11 +2,12 @@
 
 :root {
 
-    --primary: #0D9488;
-    --secondary: #1f7396;
-    --background: #cfd5db;
+    --primary: #5A9BD5;
+    --secondary: #1F3F66;
+    --background-bontent: #B7D7F0;
     --text: #1E293B;
-
+    --around-background: #EDF6FF;
+    --background-white: #FFFFFF;
 
 }
 
@@ -252,10 +253,38 @@ footer {
 }
 
 
-/******************* Map **************************/
+/******************* Appointment Call **************************/
+
+#appointment-section {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 1fr;
+}
 
 .map {
     border: none;
     width: 300px;
     height: 300px;
+}
+
+#appointment-section img {
+    width: 25rem;
+    height: auto;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#appointment-section img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: black;
+
+}
+
+#appointment-section img:active {
+    transform: translateY(4px);
+    box-shadow: 0px 1px 0px var(--primary);
+
 }
