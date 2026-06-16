@@ -40,8 +40,8 @@ async function showMedicines(medicines) {
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '10');
         image.setAttribute('height', '10');
-        i
-        btn.textContent = 'Learn More';
+
+        btn.textContent = `${availability.textContent}`;
         btn.setAttribute('onclick', `window.location.href=''`);
 
         card.appendChild(name);

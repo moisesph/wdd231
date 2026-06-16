@@ -9,19 +9,19 @@ export default [
         "indications": "Fast relief from severe headache, migraine, and fever.",
         "directions": "Adults and children over 12 years: Take 1 or 2 tablets every 6 to 8 hours.",
         "warning": "Do not administer for more than 5 consecutive days. Avoid alcohol consumption during use.",
-        "image": "https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/panadol-ultra.webp"
     },
     {
         "commercial_name": "Amoxil",
         "active_ingredient": "Amoxicillin",
         "price": 250.00,
-        "availability": true,
+        "availability": false,
         "presentation": "Bottle with 15 capsules",
         "concentration": "500mg",
         "indications": "Treatment of bacterial infections in the throat, lungs, and skin.",
         "directions": "Take 1 capsule every 8 hours for 7 to 10 days as prescribed.",
         "warning": "Complete the full course of treatment. Do not use if allergic to penicillin.",
-        "image": "https://images.unsplash.com/photo-1631549916768-4119b255f9ea?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/amoxil.webp"
     },
     {
         "commercial_name": "Advil Liqui-Gels",
@@ -33,19 +33,19 @@ export default [
         "indications": "Temporary relief of minor aches, muscle pains, and toothaches.",
         "directions": "Adults: Take 1 liquid gel every 4 to 6 hours while symptoms persist.",
         "warning": "May cause stomach bleeding if taken in high doses or with alcohol.",
-        "image": "https://images.unsplash.com/photo-1607619056574-7b8d304f3c6f?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/advil-liqui-gels.webp"
     },
     {
         "commercial_name": "Zyrtec",
         "active_ingredient": "Cetirizine Hydrochloride",
         "price": 180.00,
-        "availability": true,
+        "availability": false,
         "presentation": "Box with 10 tablets",
         "concentration": "10mg",
         "indications": "Relief of indoor and outdoor allergy symptoms such as sneezing and runny nose.",
         "directions": "Adults and children 6 years and over: Take one 10mg tablet once daily.",
         "warning": "May cause drowsiness. Be careful when driving or operating machinery.",
-        "image": "https://images.unsplash.com/photo-1550572017-edd951b55104?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/zyrtec.webp"
     },
     {
         "commercial_name": "Lipitor",
@@ -57,7 +57,7 @@ export default [
         "indications": "Used to lower cholesterol and triglycerides in the blood.",
         "directions": "Take 1 tablet daily at the same time, with or without food.",
         "warning": "Avoid eating grapefruit or drinking grapefruit juice while taking this medication.",
-        "image": "https://images.unsplash.com/photo-1626336999155-787b0b6a558d?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/lipitor.webp"
     },
     {
         "commercial_name": "Glucophage",
@@ -69,7 +69,7 @@ export default [
         "indications": "Treatment of type 2 diabetes mellitus to control blood sugar levels.",
         "directions": "Take 1 tablet with breakfast and 1 tablet with dinner.",
         "warning": "Do not take if you have severe kidney problems or dehydration.",
-        "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/glucophage.webp"
     },
     {
         "commercial_name": "Voltaren Emulgel",
@@ -81,19 +81,19 @@ export default [
         "indications": "Local relief of pain and inflammation in muscles, joints, and ligaments.",
         "directions": "Apply gently to the affected area 3 to 4 times a day.",
         "warning": "For external use only. Do not apply to open wounds or broken skin.",
-        "image": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/voltaren-emulgel.webp"
     },
     {
         "commercial_name": "Ventolin Evohaler",
         "active_ingredient": "Albuterol (Salbutamol)",
         "price": 210.00,
-        "availability": true,
+        "availability": false,
         "presentation": "Inhaler device with 200 doses",
         "concentration": "100mcg per puff",
         "indications": "Relief and prevention of bronchospasm in asthma and COPD patients.",
         "directions": "Inhale 1 or 2 puffs when needed for sudden breathing difficulties.",
         "warning": "Seek immediate medical attention if breathing problems worsen rapidly.",
-        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/ventolin-evohaler.webp"
     },
     {
         "commercial_name": "Nexium",
@@ -105,19 +105,19 @@ export default [
         "indications": "Treatment of gastroesophageal reflux disease (GERD) and acid reflux.",
         "directions": "Take 1 capsule daily in the morning, 1 hour before breakfast.",
         "warning": "Swallow the capsule whole; do not chew or crush it.",
-        "image": "https://images.unsplash.com/photo-1616679911721-fe6eec18fcd5?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/nexium.webp"
     },
     {
         "commercial_name": "Imodium Annum",
         "active_ingredient": "Loperamide Hydrochloride",
         "price": 60.00,
-        "availability": true,
+        "availability": false,
         "presentation": "Box with 12 tablets",
         "concentration": "2mg",
         "indications": "Symptomatic relief of acute and sudden diarrhea outbreaks.",
         "directions": "Take 2 tablets initially, followed by 1 tablet after each loose stool.",
         "warning": "Do not exceed 8 tablets in 24 hours. Stop use if constipation occurs.",
-        "image": "https://images.unsplash.com/photo-1547489432-cf93fa6c71ee?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/imodium-annum.webp"
     },
     {
         "commercial_name": "Lasix",
@@ -129,7 +129,7 @@ export default [
         "indications": "Treatment of fluid retention (edema) associated with heart failure.",
         "directions": "Take 1 tablet in the morning on an empty stomach.",
         "warning": "May cause dehydration or potassium loss. Monitor blood pressure frequently.",
-        "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/lasix.webp"
     },
     {
         "commercial_name": "Buscopan Duo",
@@ -141,6 +141,6 @@ export default [
         "indications": "Relief of severe abdominal cramps, spasms, and stomach pain.",
         "directions": "Adults: Take 1 or 2 tablets up to 3 times a day as needed.",
         "warning": "Not recommended for patients with glaucoma or prostate issues.",
-        "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?w=500&auto=format&fit=crop&q=60"
+        "image": "images/medicines/buscopan-duo.webp"
     }
 ]

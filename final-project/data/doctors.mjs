@@ -8,7 +8,7 @@ export default [
         "location": "Angeles del Pedregal Hospital, Office 402",
         "phone": "+52 55 1234 5678",
         "email": "alejandro.mendoza@medicos.com",
-        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189"
+        "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=500"
     },
     {
         "name": "Dr. Elena Rostova",
@@ -19,7 +19,7 @@ export default [
         "location": "San Martin Medical Center, 2nd Floor",
         "phone": "+54 11 9876 5432",
         "email": "elena.rostova@pediatria.com",
-        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189"
+        "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=500"
     },
     {
         "name": "Dr. Carlos Balmaceda",
@@ -30,6 +30,6 @@ export default [
         "location": "Las Lomas Medical Clinics, Suite 15",
         "phone": "+504 2235-9000",
         "email": "carlos.balmaceda@derma.hn",
-        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189"
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=500"
     }
 ]

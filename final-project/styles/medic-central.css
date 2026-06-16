@@ -4,7 +4,7 @@
 
     --primary: #5A9BD5;
     --secondary: #1F3F66;
-    --background-bontent: #B7D7F0;
+    --background-content: #cccccc;
     --text: #1E293B;
     --around-background: #EDF6FF;
     --background-white: #FFFFFF;
@@ -214,7 +214,7 @@ footer {
     border-radius: 10px;
 }
 
-/******************* Cards **************************/
+/******************* Cards Doctors**************************/
 
 
 .cards section {
@@ -250,7 +250,144 @@ footer {
     height: auto;
     border-radius: 10px;
     border: solid 1px rgb(0, 0, 0);
+
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+    width: 99%;
+    height: auto;
+    border: solid 1px rgb(0, 0, 0);
+    min-height: 12rem;
+    max-height: 12rem;
+    object-fit: cover;
+    object-position: 50% 10%;
 }
+
+.cards section {
+
+
+    background-color: var(--background-content);
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    max-width: 22rem;
+    min-width: 17rem;
+    margin: 1rem;
+    padding: .6rem 0;
+    border-radius: .6rem;
+
+
+}
+
+#discover-cards h2 {
+    grid-area: name;
+
+    margin: .3rem .7rem;
+}
+
+
+
+.cards p {
+    font-size: .8rem;
+    padding: 0 .3rem;
+}
+
+.cards figure {
+
+    width: 100%;
+}
+
+
+
+.cards button {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: .6rem .4rem;
+    width: 75%;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.cards button:hover {
+    background-color: white;
+    color: black;
+}
+
+.cards button:active {
+    transform: translateY(4px);
+    box-shadow: 0px 1px 0px #333;
+}
+
+/******************* Cards Products**************************/
+#medicine-section {
+    place-items: center;
+}
+
+#medicine-section section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-content);
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    flex: 1;
+    min-width: 17rem;
+    max-width: 22rem;
+    margin: 1rem;
+    padding: 0.6rem 0;
+    border-radius: 0.6rem;
+}
+
+#medicine-section section img {
+    width: 99%;
+    min-height: 12rem;
+    max-height: 12rem;
+    object-fit: cover;
+    object-position: 50% 10%;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+    box-shadow: 5px 5px 10px #888;
+}
+
+#medicine-section section h2 {
+    font-size: 2rem;
+}
+
+#discover-cards h2 {
+    grid-area: name;
+    margin: 0.3rem 0.7rem;
+}
+
+#medicine-section p {
+    font-size: 0.8rem;
+    padding: 0 0.3rem;
+    text-align: center;
+}
+
+#medicine-section figure {
+    width: 100%;
+}
+
+#medicine-section button {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 0.6rem 0.4rem;
+    width: 75%;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#medicine-section button:hover {
+    background-color: white;
+    color: black;
+}
+
+#medicine-section button:active {
+    transform: translateY(4px);
+    box-shadow: 0px 1px 0px #333;
+}
+
 
 
 /******************* Appointment Call **************************/
