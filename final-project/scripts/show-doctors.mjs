@@ -5,8 +5,8 @@ const cards = document.querySelector('#doctors');
 async function getDoctors() {
     try {
         const response = await fetch(doctorsInfo);
-        const data = await response.json(response)
-        showDoctors(data);
+        const data = await response.json()
+        showDoctors(data.doctors);
     }
     catch (error) {
         console.error("Couldn't get data Json", error);
@@ -44,7 +44,6 @@ async function showDoctors(doctors) {
         card.appendChild(email);
         card.appendChild(address);
         card.appendChild(btn);
-
         cards.appendChild(card);
 
     }
