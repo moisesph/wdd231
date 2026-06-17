@@ -1,6 +1,5 @@
 import doctorsInfo from '../data/doctors.mjs';
 
-const cardTittle = document.querySelector('#doctors');
 const cards = document.querySelector('#doctors');
 
 async function getDoctors() {
