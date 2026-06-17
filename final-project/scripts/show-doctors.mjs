@@ -1,11 +1,11 @@
-const doctorsInfo = '../data/doctors.mjs';
+const doctorsInfo = 'https://raw.githubusercontent.com/moisesph/wdd231/main/final-project/data/doctors.json';
 
 const cards = document.querySelector('#doctors');
 
 async function getDoctors() {
     try {
-        const answer = await fetch(doctorsInfo);
-        const data = await answer.json()
+        const response = await fetch(doctorsInfo);
+        const data = await response.json(cards)
         showDoctors(data);
     }
     catch (error) {
