@@ -433,7 +433,8 @@ footer {
     color: var(--primary)
 }
 
-#medicine-section dialog a {
+#medicine-section dialog a,
+a {
 
     display: block;
     text-decoration: none;
