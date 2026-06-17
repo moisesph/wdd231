@@ -23,6 +23,7 @@ async function showMedicines(medicines) {
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let price = document.createElement('p');
+        let activeIngredient = document.createElement('p');
         let image = document.createElement('img');
         let availability = document.createElement('p');
         let btn = document.createElement('button');
@@ -41,6 +42,7 @@ async function showMedicines(medicines) {
 
         name.textContent = `${medicine.commercial_name}`;
         price.textContent = `Price: ${medicine.price}$`
+        activeIngredient.textContent = `Ingredient: ${medicine.active_ingredient}`
         availability.textContent = medicine.availability ? 'On Stock' : 'Out of Stock';
         btn.textContent = `${availability.textContent}`;
         nameModal.textContent = name.textContent;
@@ -78,6 +80,7 @@ async function showMedicines(medicines) {
         card.appendChild(name);
         card.appendChild(image);
         card.appendChild(price);
+        card.appendChild(activeIngredient);
         card.appendChild(btn);
         card.appendChild(modalInfo);
 
