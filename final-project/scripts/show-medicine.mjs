@@ -55,8 +55,6 @@ async function showMedicines(medicines) {
         image.setAttribute('src', medicine.image);
         image.setAttribute('alt', `Medicine: ${medicine.image}`);
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '10');
-        image.setAttribute('height', '10');
         btn.setAttribute('class', medicine.availability ? 'ava' : 'oos');
         //btn.setAttribute('onclick', `window.location.href='products.html'`);
         btn.setAttribute('id', `open-button${medicine.id}`)

@@ -40,8 +40,6 @@ async function showDoctors(doctors) {
         image.setAttribute('src', doctor.image);
         image.setAttribute('alt', `image of ${doctor.image}`);
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '10');
-        image.setAttribute('height', '10');
         btn.setAttribute('onclick', `window.location.href=''`);
 
         card.appendChild(name);
