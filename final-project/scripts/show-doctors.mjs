@@ -1,11 +1,12 @@
-import doctorsInfo from '../data/doctors.mjs';
+const doctorsInfo = '../data/doctors.mjs';
 
 const cards = document.querySelector('#doctors');
 
 async function getDoctors() {
     try {
-
-        showDoctors(doctorsInfo);
+        const answer = await fetch(doctorsInfo);
+        const data = await answer.json()
+        showDoctors(data);
     }
     catch (error) {
         console.error("Couldn't get data Json", error);
