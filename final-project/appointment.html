@@ -66,10 +66,11 @@
                     title="Enter your Email"><br>
 
                 <label for="phone">Phone:</label><br>
-                <input required name="phone" id="phone" type="phone" autocomplete="tel" title="Enter your phone"><br>
+                <input required name="phone" id="phone" type="tel" autocomplete="tel" title="Enter your phone"><br>
 
                 <label for="membership">Reason:</label><br>
                 <select required name="membership" id="membership" title="Enter your membership">
+                    <option value="" disabled selected>Select an option</option>
                     <option value="consult">Consult</option>
                     <option value="Product">Buy Product</option>
                     <option value="vaccinations">Vaccinations</option>
@@ -97,7 +98,7 @@
 
 
                 <figure>
-                    <img id="weather-icon" src="" alt="">
+                    <img id="weather-icon" src="images/placeholder.webp" alt="placeholder">
                     <figcaption></figcaption>
                     <p><span id="current-temp"></span></p>
                 </figure>
