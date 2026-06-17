@@ -21,8 +21,7 @@
     <script type="module" src="scripts/getdates.mjs"></script>
     <script type="module" src="scripts/hamburguer.mjs"></script>
 
-    <script type="module" src="scripts/show-doctors.mjs"></script>
-    <script type="module" src="scripts/show-medicine.mjs"></script>
+    <script type="module" src="scripts/weather-for-3-days.mjs"></script>
 
     <meta property="og:title" content="Centro Psicomedico">
     <meta property="og:description" content="Find a good attention for a good price!">
@@ -51,9 +50,45 @@
 
     </header>
     <main>
+        <div>
+            <form action="thankyou.html" method="GET">
 
+                <h1>Appointment Form</h1>
+                <label for="fname">First name:<br>
+                    <input required type="text" id="fname" name="fname" autocomplete="given-name"></label><br>
+                <label for="lname">Last name:</label><br>
+                <input required type="text" id="lname" name="lname" autocomplete="family-name"><br>
 
-        <div id="medicine-section" class="all-medicines">
+                <label for="email">Email:</label><br>
+                <input required name="email" id="email" type="email" autocomplete="off" placeholder="example@gmail.com"
+                    title="Enter your Email"><br>
+
+                <label for="phone">Phone:</label><br>
+                <input required name="phone" id="phone" type="phone" autocomplete="tel" title="Enter your phone"><br>
+
+                <label for="membership">Reason:</label><br>
+                <select required name="membership" id="membership" title="Enter your membership">
+                    <option value="consult">Consult</option>
+                    <option value="Product">Buy Product</option>
+                    <option value="vaccinations">Vaccinations</option>
+                    <option value="screenings">Health Screenings:</option>
+                </select>
+                <br>
+
+                <input hidden name="timestamp" id="timestamp"><br>
+                <button type="submit" value="Submit">Join</button>
+            </form>
+        </div>
+
+        <div>
+            <section class="card">
+                <h2>Weather Forecast</h2>
+                <figure id="forecast">
+                    <p>Today:<span id="temp-today"></span></p>
+                    <p>Wednesday:<span id="temp-tomorrow"></span></p>
+                    <p>Thursday:<span id="temp-after-tomorrow"></span></p>
+                </figure>
+            </section>
         </div>
 
     </main>
