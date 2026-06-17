@@ -15,11 +15,6 @@ async function getDoctors() {
 
 async function showDoctors(doctors) {
 
-    let title = document.createElement('h1');
-    title.textContent = `We’re so glad you’re here!`;
-    cardTittle.appendChild(title);
-
-
     for (const doctor of doctors) {
         let card = document.createElement('section');
         let name = document.createElement('h2');
