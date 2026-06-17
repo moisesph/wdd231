@@ -465,13 +465,38 @@ dialog a {
 
 /* /////////////// APPOINTMENT.HTML /////////////////// */
 
+/******************* Thanks Message **************************/
 
-
-/******************* Thanks after Form **************************/
-
-#thanks {
+#schedule-appointment,
+#schedule-appointment input,
+#schedule-appointment select {
     text-align: center;
+}
 
+#schedule-appointment input,
+#schedule-appointment select,
+#schedule-appointment button {
+
+    margin-bottom: 1rem;
+    padding: .3rem 0;
+    width: 16rem;
+}
+
+#schedule-appointment input,
+#schedule-appointment button {
+    border-radius: .25rem;
+}
+
+
+/* /////////////// THANKS.HTML /////////////////// */
+
+/******************* Thanks Message **************************/
+
+
+
+#thanks,
+#confirmation {
+    text-align: center;
 }
 
 #thanks-image {
