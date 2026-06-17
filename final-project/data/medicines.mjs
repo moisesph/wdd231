@@ -170,7 +170,7 @@ export default [
     },
     {
         "id": "0014",
-        "commercial_name": "Tylenol Extra Strength",
+        "commercial_name": "Tylenol",
         "active_ingredient": "Acetaminophen",
         "price": 75.00,
         "availability": true,
