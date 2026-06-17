@@ -466,3 +466,29 @@ dialog a {
 .all-medicines section {
     border: 2px solid #4a90e2;
 }
+
+
+/* /////////////// APPOINTMENT.HTML /////////////////// */
+
+/******************* Cards Weather **************************/
+.card {
+    border: 1px solid #5d6f67;
+    background-color: #f5eed4;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2rem 0;
+
+}
+
+/******************* Thanks after Form **************************/
+
+#thanks {
+    text-align: center;
+
+}
+
+#thanks-image {
+    width: 300px;
+    min-height: auto;
+    border-radius: 14px;
+}
