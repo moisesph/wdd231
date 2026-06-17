@@ -35,7 +35,7 @@ async function showDoctors(doctors) {
         image.setAttribute('src', doctor.image);
         image.setAttribute('alt', `image of ${doctor.image}`);
         image.setAttribute('loading', 'lazy');
-        btn.setAttribute('onclick', `window.location.href=''`);
+        btn.setAttribute('onclick', `window.location.href='appointment.html'`);
 
         card.appendChild(name);
         card.appendChild(image);
