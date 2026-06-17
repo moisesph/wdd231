@@ -9,5 +9,5 @@ document.querySelector('#thanks').innerHTML = `
 <br>
 <p>We hope we see you soon AWA!!</p>
 
-<img src="images/thanks.jfif" alt="thanks image" id="thanks-image">
+<img src="images/thanks.webp" alt="thanks image" id="thanks-image">
 `;
