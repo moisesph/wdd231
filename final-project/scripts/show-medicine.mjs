@@ -28,6 +28,13 @@ async function showMedicines(medicines) {
         let modalInfo = document.createElement('dialog');
         let nameModal = document.createElement('h2');
         let priceModal = document.createElement('p');
+        let activeIngredientModal = document.createElement('p');
+        let presentationModal = document.createElement('p');
+        let concentrationModal = document.createElement('p');
+        let indicationsModal = document.createElement('p');
+        let directionsModal = document.createElement('p');
+        let warningModal = document.createElement('p');
+
         let btnClose = document.createElement('button');
 
         name.textContent = `${medicine.commercial_name}`;
@@ -35,7 +42,13 @@ async function showMedicines(medicines) {
         availability.textContent = medicine.availability ? 'On Stock' : 'Out of Stock';
         btn.textContent = `${availability.textContent}`;
         nameModal.textContent = name.textContent;
-        priceModal.textContent`${medicine.price}`
+        priceModal.textContent = `Price: ${medicine.price}`
+        activeIngredientModal.textContent = `Active ingredient: ${medicine.active_ingredient}`
+        presentationModal.textContent = `Presentation: ${medicine.presentation}`
+        concentrationModal.textContent = `Concentration: ${medicine.concentration}`
+        indicationsModal.textContent = `Indications: ${medicine.indications}`
+        directionsModal.textContent = `Directions: ${medicine.directions}`
+        warningModal.textContent = `Warnings: ${medicine.warning}`
         btnClose.textContent = `Close`;
 
         image.setAttribute('src', medicine.image);
@@ -51,6 +64,13 @@ async function showMedicines(medicines) {
 
 
         modalInfo.appendChild(nameModal);
+        modalInfo.appendChild(priceModal);
+        modalInfo.appendChild(activeIngredientModal);
+        modalInfo.appendChild(presentationModal);
+        modalInfo.appendChild(concentrationModal);
+        modalInfo.appendChild(indicationsModal);
+        modalInfo.appendChild(directionsModal);
+        modalInfo.appendChild(warningModal);
         modalInfo.appendChild(btnClose);
         card.appendChild(name);
         card.appendChild(image);
