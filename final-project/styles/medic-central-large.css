@@ -9,6 +9,7 @@
         margin: 0 auto
     }
 
+    /* /////////////// INDEX.HTML /////////////////// */
     /******************* Header **************************/
 
     header {
@@ -109,5 +110,12 @@
     }
 
 
+    /* /////////////// PRODUCTS.HTML /////////////////// */
+
+    .all-medicines {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
 
 }

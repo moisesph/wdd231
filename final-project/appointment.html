@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Psicomedico</title>
+    <meta name="description"
+        content="A website of the Medical center where you can get attended and receive great help, Join us for a good price and good attention">
+    <meta name="author" content="Moises Pleytez">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medic-central.css">
+    <link rel="stylesheet" href="styles/medic-central-medium.css">
+    <link rel="stylesheet" href="styles/medic-central-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="scripts/getdates.mjs"></script>
+    <script type="module" src="scripts/hamburguer.mjs"></script>
+
+    <script type="module" src="scripts/show-doctors.mjs"></script>
+    <script type="module" src="scripts/show-medicine.mjs"></script>
+
+    <meta property="og:title" content="Centro Psicomedico">
+    <meta property="og:description" content="Find a good attention for a good price!">
+    <meta property="og:image" content="https://moisesph.github.io/wdd231/chamber/directory.html">
+    <!-- You need to change that thing up and this thing down -->
+    <meta property="og:url" content="https://www.apple.com/">
+
+    <link rel="icon" href="images/logo/favicon.ico">
+</head>
+
+
+<body>
+
+
+    <header>
+        <img src="images/logo/favicon.ico" alt="Site Logo" width="512" height="512">
+        <span>CENTRO PSICOMEDICO</span>
+        <button type="button" id="ham-btn" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li class="current"><a href="#">Join</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+
+        <div id="medicine-section" class="all-medicines">
+        </div>
+
+    </main>
+
+    <footer>
+
+
+        <div class="shareLinks">
+            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/moisespleytez/?locale=es_ES" target="_blank"><img
+                    src="images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.youtube.com/@Perro-G1" target="_blank"><img src="images/youtube.svg" alt="Youtube"></a>
+        </div>
+
+        <p>©<span id="currentyear"></span> 🏆 Moises Pleytez 🏆 Honduras</p>
+        <p id="low-case">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
