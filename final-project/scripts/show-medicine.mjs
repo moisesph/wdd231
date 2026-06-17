@@ -55,7 +55,7 @@ async function showMedicines(medicines) {
         btnClose.textContent = `Close`;
 
         image.setAttribute('src', medicine.image);
-        image.setAttribute('alt', `Medicine: ${medicine.image}`);
+        image.setAttribute('alt', `Medicine: ${medicine.commercial_name}`);
         image.setAttribute('loading', 'lazy');
         btn.setAttribute('class', medicine.availability ? 'ava' : 'oos');
         //btn.setAttribute('onclick', `window.location.href='products.html'`);

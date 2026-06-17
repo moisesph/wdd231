@@ -154,5 +154,44 @@ export default [
         "directions": "Adults: Take 1 or 2 tablets up to 3 times a day as needed.",
         "warning": "Not recommended for patients with glaucoma or prostate issues.",
         "image": "images/medicines/buscopan-duo.webp"
+    },
+    {
+        "id": "0013",
+        "commercial_name": "Claritin",
+        "active_ingredient": "Loratadine",
+        "price": 110.00,
+        "availability": true,
+        "presentation": "Box with 10 tablets",
+        "concentration": "10mg",
+        "indications": "Powerful 24-hour relief from allergy symptoms like sneezing and itchy eyes.",
+        "directions": "Adults and children 6 years and over: Take 1 tablet daily.",
+        "warning": "Do not use if you have severe liver disease without consulting a doctor.",
+        "image": "images/medicines/claritin.webp"
+    },
+    {
+        "id": "0014",
+        "commercial_name": "Tylenol Extra Strength",
+        "active_ingredient": "Acetaminophen",
+        "price": 75.00,
+        "availability": true,
+        "presentation": "Box with 24 caplets",
+        "concentration": "500mg",
+        "indications": "Temporary relief of minor aches, pains, minor arthritis pain, and fever reduction.",
+        "directions": "Take 1 or 2 caplets every 4 to 6 hours while symptoms last.",
+        "warning": "Severe liver damage may occur if you take more than 4,000mg in 24 hours.",
+        "image": "images/medicines/tylenol.webp"
+    },
+    {
+        "id": "0015",
+        "commercial_name": "Pepto-Bismol",
+        "active_ingredient": "Bismuth Subsalicylate",
+        "price": 140.00,
+        "availability": false,
+        "presentation": "Bottle with 240ml liquid",
+        "concentration": "525mg per 30ml",
+        "indications": "Relief of upset stomach, indigestion, nausea, heartburn, and diarrhea.",
+        "directions": "Adults: Take 30ml every 30 minutes to 1 hour as needed.",
+        "warning": "Do not use if you have ulcers, bleeding problems, or bloody stools.",
+        "image": "images/medicines/pepto-bismol.webp"
     }
 ]

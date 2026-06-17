@@ -32,7 +32,7 @@ async function showDoctors(doctors) {
 
         btn.textContent = 'Make Appointment';
         image.setAttribute('src', doctor.image);
-        image.setAttribute('alt', `image of ${doctor.image}`);
+        image.setAttribute('alt', `image of ${doctor.name}`);
         image.setAttribute('loading', 'lazy');
         btn.setAttribute('onclick', `window.location.href='appointment.html'`);
 
