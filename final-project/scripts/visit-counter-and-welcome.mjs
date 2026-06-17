@@ -15,7 +15,7 @@ function welcome() {
     let title = document.createElement('h1');
 
     if (visitCounter <= 1) {
-        title.textContent = `Welcome! Let us know if you have any questions`
+        title.textContent = `Welcome! Let us know if you have any assistance!`
         localStorage.setItem('lastVisit', currentVisit)
     }
     else if (daysPassed == 0) {
