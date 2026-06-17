@@ -5,7 +5,7 @@ const cards = document.querySelector('#doctors');
 async function getDoctors() {
     try {
         const response = await fetch(doctorsInfo);
-        const data = await response.json()
+        const data = await response.json(cards)
         showDoctors(data);
     }
     catch (error) {
